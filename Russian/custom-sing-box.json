@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain": [
+        "deepstatemap.live",
         "bard.google.com",
         "gemini.google.com",
         "news.google.com",
