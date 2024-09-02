@@ -3,7 +3,6 @@
   "rules": [
     {
       "domain": [
-        "deepstatemap.live",
         "bard.google.com",
         "gemini.google.com",
         "news.google.com",
@@ -12,6 +11,9 @@
         "wide-youtube.l.google.com",
         "habr.com",
         "ping.eu"
+      ],
+      "domain_suffix": [
+        "deepstatemap.live"
       ]
     }
   ]
