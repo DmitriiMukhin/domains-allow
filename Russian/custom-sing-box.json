@@ -16,7 +16,6 @@
         "ytimg.com",
         "ggpht.com",
         "googlevideo.com",
-        "youtubekids.com",
         "youtu.be",
         "youtube-nocookie.com",
         "wide-youtube.l.google.com",
@@ -27,6 +26,7 @@
       "domain_suffix": [
         "deepstatemap.live",
         "physicsandmathstutor.com",
+        "rsload.net",
         "truenas.com"
       ]
     }
