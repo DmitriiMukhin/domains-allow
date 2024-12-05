@@ -11,7 +11,19 @@
         "habr.com",
         "ping.eu",
         "cyberfront.org",
-        "itdog.info",
+        "itdog.info"
+      ],
+      "domain_suffix": [
+        ".nl",
+        ".uk",
+        "archlinux.org",
+        "deepstatemap.live",
+        "insanelymac.com",
+        "keenetic.com",
+        "mrbool.com",
+        "physicsandmathstutor.com",
+        "rsload.net",
+        "truenas.com",
         "youtube.com",
         "ytimg.com",
         "ggpht.com",
@@ -22,18 +34,6 @@
         "ytimg.l.google.com",
         "youtubei.googleapis.com",
         "youtubeembeddedplayer.googleapis.com"
-      ],
-      "domain_suffix": [
-        "archlinux.org",
-        "deepstatemap.live",
-        "insanelymac.com",
-        "keenetic.com",
-        "mrbool.com",
-        "physicsandmathstutor.com",
-        "rsload.net",
-        "truenas.com",
-        ".nl",
-        ".uk"
       ]
     }
   ]
