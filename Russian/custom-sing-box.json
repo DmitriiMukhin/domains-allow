@@ -11,9 +11,7 @@
         "habr.com",
         "ping.eu",
         "cyberfront.org",
-        "itdog.info"
-      ],
-      "domain_suffix": [
+        "itdog.info",
         ".nl",
         ".uk",
         "archlinux.org",
@@ -21,9 +19,11 @@
         "insanelymac.com",
         "keenetic.com",
         "mrbool.com",
-        "physicsandmathstutor.com",
         "rsload.net",
         "truenas.com"
+      ],
+      "domain_suffix": [
+        "physicsandmathstutor.com"
       ]
     }
   ]
