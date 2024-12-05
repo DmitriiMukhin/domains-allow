@@ -11,7 +11,11 @@
         "habr.com",
         "ping.eu",
         "cyberfront.org",
-        "itdog.info"
+        "itdog.info",
+        "wide-youtube.l.google.com",
+        "ytimg.l.google.com",
+        "youtubei.googleapis.com",
+        "youtubeembeddedplayer.googleapis.com"
       ],
       "domain_suffix": [
         ".nl",
@@ -29,11 +33,7 @@
         "ggpht.com",
         "googlevideo.com",
         "youtu.be",
-        "youtube-nocookie.com",
-        "wide-youtube.l.google.com",
-        "ytimg.l.google.com",
-        "youtubei.googleapis.com",
-        "youtubeembeddedplayer.googleapis.com"
+        "youtube-nocookie.com"
       ]
     }
   ]
