@@ -11,7 +11,9 @@
         "habr.com",
         "ping.eu",
         "cyberfront.org",
-        "itdog.info",
+        "itdog.info"
+      ],
+      "domain_suffix": [
         ".nl",
         ".uk",
         "archlinux.org",
