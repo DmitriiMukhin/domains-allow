@@ -3,6 +3,14 @@
   "rules": [
     {
       "domain": [
+        "youtube-ui.l.google.com",
+        "youtubeembeddedplayer.googleapis.com",
+        "youtube.googleapis.com",
+        "youtubei.googleapis.com",
+        "yt-video-upload.l.google.com",
+        "wide-youtube.l.google.com"
+      ],
+      "domain_suffix": [
         "youtube.com",
         "youtu.be",
         "yt.be",
@@ -10,13 +18,7 @@
         "ytimg.com",
         "ggpht.com",
         "gvt1.com",
-        "youtube-nocookie.com",
-        "youtube-ui.l.google.com",
-        "youtubeembeddedplayer.googleapis.com",
-        "youtube.googleapis.com",
-        "youtubei.googleapis.com",
-        "yt-video-upload.l.google.com",
-        "wide-youtube.l.google.com"
+        "youtube-nocookie.com"
       ]
     }
   ]
