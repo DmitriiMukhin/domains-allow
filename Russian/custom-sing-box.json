@@ -18,12 +18,12 @@
         "keenetic.com",
         "mrbool.com",
         "truenas.com",
-        "jnn-pa.googleapis.com",
-        "nexenta.com"
+        "jnn-pa.googleapis.com"
       ],
       "domain_suffix": [
         "physicsandmathstutor.com",
-        "z-lib.io"
+        "z-lib.io",
+        "nexenta.com"
       ]
     }
   ]
