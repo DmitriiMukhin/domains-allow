@@ -3,11 +3,6 @@
   "rules": [
     {
       "domain": [
-        "bard.google.com",
-        "gemini.google.com",
-        "news.google.com",
-        "play.google.com",
-        "tokenized.play.google.com",
         "ping.eu",
         "cyberfront.org",
         "itdog.info",
@@ -22,9 +17,16 @@
         "physicsandmathstutor.com",
         "sentry.io",
         "nexenta.com",
-        "google.com",
         "udemy.com",
-        "mvaldes.dev"
+        "mvaldes.dev",
+        // GOOGLE SERVICES
+        "google.com",
+        "bard.google.com",
+        "gemini.google.com",
+        "news.google.com",
+        "play.google.com",
+        "tokenized.play.google.com",
+        "generativelanguage.googleapis.com"
       ]
     }
   ]
