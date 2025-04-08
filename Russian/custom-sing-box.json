@@ -2,7 +2,7 @@
   "version": 1,
   "rules": [
     {
-      "domain": [
+      "domain_suffix": [
         "ping.eu",
         "cyberfront.org",
         "itdog.info",
@@ -15,7 +15,6 @@
         "jnn-pa.googleapis.com",
         "thehomelabber.com",
         "physicsandmathstutor.com",
-        "sentry.io",
         "nexenta.com",
         "udemy.com",
         "mvaldes.dev",
