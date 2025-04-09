@@ -26,7 +26,20 @@
         "play.google.com",
         "tokenized.play.google.com",
         "generativelanguage.googleapis.com"
-      ]
+      ],
+      "domain_keyword": [
+        "animego",
+        "yummyanime",
+        "yummy-anime",
+        "animeportal",
+        "anime-portal",
+        "animedub",
+        "anidub",
+        "animelib",
+        "ikianime",
+        "anilibria"
+      ],
+      "domain_suffix": ["habr.com"]
     }
   ]
 }
