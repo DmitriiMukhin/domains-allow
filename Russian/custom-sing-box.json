@@ -2,7 +2,7 @@
   "version": 1,
   "rules": [
     {
-      "domain": [
+      "domain_suffix": [
         "ping.eu",
         "cyberfront.org",
         "itdog.info",
@@ -18,16 +18,7 @@
         "nexenta.com",
         "udemy.com",
         "mvaldes.dev",
-        // GOOGLE SERVICES
-        "google.com",
-        "bard.google.com",
-        "gemini.google.com",
-        "news.google.com",
-        "play.google.com",
-        "tokenized.play.google.com",
-        "generativelanguage.googleapis.com",
-        // ARR
-        "api.radarr.video"
+        "radarr.video"
       ],
       "domain_keyword": [
         "animego",
