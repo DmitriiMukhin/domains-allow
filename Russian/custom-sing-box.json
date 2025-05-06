@@ -27,7 +27,7 @@
         "tokenized.play.google.com",
         "generativelanguage.googleapis.com",
         // ARR
-        "radarr.video"
+        "api.radarr.video"
       ],
       "domain_keyword": [
         "animego",
