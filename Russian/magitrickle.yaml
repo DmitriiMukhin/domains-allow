@@ -100,7 +100,7 @@ groups:
         type: namespace
         rule: youtube-ui.l.google.com
         enable: true
-  - id: "09592e48"
+  - id: 09592e48
     name: Anime
     color: "#0056d6"
     interface: sin0
@@ -1106,7 +1106,7 @@ groups:
         type: namespace
         rule: discord.dev
         enable: true
-      - id: 6440797
+      - id: 6440797a
         name: "Namespace: discord.gg"
         type: namespace
         rule: discord.gg
