@@ -29,4490 +29,3593 @@ app:
   showAllInterfaces: false
   logLevel: error
 groups:
-  - id: a650906b
-    name: YouTube
+  - name: YouTube
     color: "#ffc677"
     interface: sin0
     enable: true
     rules:
-      - id: cf7651ef
-        name: ""
+      - name: ""
         type: namespace
         rule: googleapis.com
         enable: true
-      - id: cb1599f9
-        name: ""
+      - name: ""
         type: namespace
         rule: googleusercontent.com
         enable: true
-      - id: e9e91fb3
-        name: ""
+      - name: ""
         type: namespace
         rule: gvt1.com
         enable: true
-      - id: 5be334bf
-        name: ""
+      - name: ""
         type: namespace
         rule: ggpht.com
         enable: true
-      - id: f080e187
-        name: ""
+      - name: ""
         type: namespace
         rule: ytimg.com
         enable: true
-      - id: 15fad507
-        name: ""
+      - name: ""
         type: namespace
         rule: googlevideo.com
         enable: true
-      - id: 39a3c1e2
-        name: ""
+      - name: ""
         type: namespace
         rule: yt.be
         enable: true
-      - id: dcf11116
-        name: ""
+      - name: ""
         type: namespace
         rule: youtu.be
         enable: true
-      - id: 98142b4f
-        name: ""
+      - name: ""
         type: namespace
         rule: youtube.com
         enable: true
-      - id: f954e768
-        name: ""
+      - name: ""
         type: namespace
         rule: youtube-nocookie.com
         enable: true
-      - id: 44294b83
-        name: ""
+      - name: ""
         type: namespace
         rule: wide-youtube.l.google.com
         enable: true
-      - id: fb86354c
-        name: ""
+      - name: ""
         type: namespace
         rule: yt-video-upload.l.google.com
         enable: true
-      - id: 0cbd7c8f
-        name: ""
+      - name: ""
         type: namespace
         rule: youtube-ui.l.google.com
         enable: true
-  - id: 09592e48
-    name: Anime
+  - name: Anime
     color: "#0056d6"
     interface: sin0
     enable: true
     rules:
-      - id: e831d92d
-        name: ""
+      - name: ""
         type: regex
         rule: ^.*anilibria.*$
         enable: true
-      - id: 9804d182
-        name: ""
+      - name: ""
         type: regex
         rule: ^.*ikianime.*$
         enable: true
-      - id: 1d718767
-        name: ""
+      - name: ""
         type: regex
         rule: ^.*animelib.*$
         enable: true
-      - id: 04cb1100
-        name: ""
+      - name: ""
         type: regex
         rule: ^.*anidub.*$
         enable: true
-      - id: 14bd5104
-        name: ""
+      - name: ""
         type: regex
         rule: ^.*animedub.*$
         enable: true
-      - id: 565b6e82
-        name: ""
+      - name: ""
         type: regex
         rule: ^.*anime-portal.*$
         enable: true
-      - id: a3c14bc5
-        name: ""
+      - name: ""
         type: regex
         rule: ^.*animeportal.*$
         enable: true
-      - id: 785c8a5b
-        name: ""
+      - name: ""
         type: regex
         rule: ^.*yummy-anime.*$
         enable: true
-      - id: a1e4d215
-        name: ""
+      - name: ""
         type: regex
         rule: ^.*yummyanime.*$
         enable: true
-      - id: 1814a3d2
-        name: ""
+      - name: ""
         type: regex
         rule: ^.*animego.*$
         enable: true
-  - id: e415592b
-    name: custom
+  - name: custom
     color: "#669c35"
     interface: sin0
     enable: true
     rules:
-      - id: 938ae9de
-        name: ""
+      - name: ""
         type: regex
         rule: ^.*canva\..*$
         enable: true
-      - id: a8ba9309
-        name: ""
+      - name: ""
         type: regex
         rule: ^.*instagram.*$
         enable: true
-      - id: 29b7fd9e
-        name: ""
+      - name: ""
         type: namespace
         rule: radarr.video
         enable: true
-      - id: ef00c2a0
-        name: ""
+      - name: ""
         type: namespace
         rule: udemy.com
         enable: true
-      - id: 5a63c133
-        name: ""
+      - name: ""
         type: namespace
         rule: nexenta.com
         enable: true
-      - id: 6c924be4
-        name: ""
+      - name: ""
         type: namespace
         rule: insanelymac.com
         enable: true
-      - id: a656be69
-        name: ""
+      - name: ""
         type: namespace
         rule: itdog.info
         enable: true
-      - id: cffc34b3
-        name: ""
+      - name: ""
         type: namespace
         rule: cyberfront.org
         enable: true
-      - id: 122ec806
-        name: ""
+      - name: ""
         type: namespace
         rule: ping.eu
         enable: true
-      - id: 5aeb7e5c
-        name: ""
+      - name: ""
         type: namespace
         rule: deepstatemap.live
         enable: true
-      - id: 7a8cf51f
-        name: ^.*.ua$
+      - name: ^.*.ua$
         type: regex
         rule: ^.*.ua$
         enable: true
-  - id: df3e5754
-    name: Converted from ClashX
+  - name: Converted from ClashX
     enable: true
     rules:
-      - id: 5b5d0146
-        name: "Namespace: .ua"
+      - name: "Namespace: .ua"
         type: namespace
         rule: .ua
         enable: true
-      - id: 576224d8
-        name: "Namespace: 10minutemail.com"
+      - name: "Namespace: 10minutemail.com"
         type: namespace
         rule: 10minutemail.com
         enable: true
-      - id: 7d589bc7
-        name: "Namespace: 1337x.to"
+      - name: "Namespace: 1337x.to"
         type: namespace
         rule: 1337x.to
         enable: true
-      - id: 70928894
-        name: "Namespace: 24.kg"
+      - name: "Namespace: 24.kg"
         type: namespace
         rule: 24.kg
         enable: true
-      - id: dc9177fb
-        name: "Namespace: 4freerussia.org"
+      - name: "Namespace: 4freerussia.org"
         type: namespace
         rule: 4freerussia.org
         enable: true
-      - id: 08d38ce8
-        name: "Namespace: 4pda.to"
+      - name: "Namespace: 4pda.to"
         type: namespace
         rule: 4pda.to
         enable: true
-      - id: b42bdd05
-        name: "Namespace: 4pna.com"
+      - name: "Namespace: 4pna.com"
         type: namespace
         rule: 4pna.com
         enable: true
-      - id: b35935be
-        name: "Namespace: 5sim.net"
+      - name: "Namespace: 5sim.net"
         type: namespace
         rule: 5sim.net
         enable: true
-      - id: 5523f29b
-        name: "Namespace: 7dniv.rv.ua"
+      - name: "Namespace: 7dniv.rv.ua"
         type: namespace
         rule: 7dniv.rv.ua
         enable: true
-      - id: 76da6606
-        name: "Namespace: 7tv.app"
+      - name: "Namespace: 7tv.app"
         type: namespace
         rule: 7tv.app
         enable: true
-      - id: f22bdfe0
-        name: "Namespace: 7tv.io"
+      - name: "Namespace: 7tv.io"
         type: namespace
         rule: 7tv.io
         enable: true
-      - id: 64bce6b2
-        name: "Namespace: 9tv.co.il"
+      - name: "Namespace: 9tv.co.il"
         type: namespace
         rule: 9tv.co.i
         enable: true
-      - id: 19381541
-        name: "Namespace: abercrombie.com"
+      - name: "Namespace: abercrombie.com"
         type: namespace
         rule: abercrombie.com
         enable: true
-      - id: 79014a28
-        name: "Namespace: abook-club.ru"
+      - name: "Namespace: abook-club.ru"
         type: namespace
         rule: abook-club.ru
         enable: true
-      - id: 7cd7fcea
-        name: "Namespace: academy.terrasoft.ua"
+      - name: "Namespace: academy.terrasoft.ua"
         type: namespace
         rule: academy.terrasoft.ua
         enable: true
-      - id: ca2e2b99
-        name: "Namespace: activatica.org"
+      - name: "Namespace: activatica.org"
         type: namespace
         rule: activatica.org
         enable: true
-      - id: fbdd87e5
-        name: "Namespace: adguard.com"
+      - name: "Namespace: adguard.com"
         type: namespace
         rule: adguard.com
         enable: true
-      - id: 31c88303
-        name: "Namespace: adidas.com"
+      - name: "Namespace: adidas.com"
         type: namespace
         rule: adidas.com
         enable: true
-      - id: 6ba9ebd7
-        name: "Namespace: adminforge.de"
+      - name: "Namespace: adminforge.de"
         type: namespace
         rule: adminforge.de
         enable: true
-      - id: a29afebf
-        name: "Namespace: adobe.com"
+      - name: "Namespace: adobe.com"
         type: namespace
         rule: adobe.com
         enable: true
-      - id: 6983826c
-        name: "Namespace: ads-twitter.com"
+      - name: "Namespace: ads-twitter.com"
         type: namespace
         rule: ads-twitter.com
         enable: true
-      - id: e60f8c02
-        name: "Namespace: adultmult.tv"
+      - name: "Namespace: adultmult.tv"
         type: namespace
         rule: adultmult.tv
         enable: true
-      - id: f925607d
-        name: "Namespace: agents.media"
+      - name: "Namespace: agents.media"
         type: namespace
         rule: agents.media
         enable: true
-      - id: a5e6f6be
-        name: "Namespace: ahrefs.com"
+      - name: "Namespace: ahrefs.com"
         type: namespace
         rule: ahrefs.com
         enable: true
-      - id: 4e48bc5b
-        name: "Namespace: ai-chat.bsg.brave.com"
+      - name: "Namespace: ai-chat.bsg.brave.com"
         type: namespace
         rule: ai-chat.bsg.brave.com
         enable: true
-      - id: 6e98fd56
-        name: "Namespace: ai.com"
+      - name: "Namespace: ai.com"
         type: namespace
         rule: ai.com
         enable: true
-      - id: 4e1ba713
-        name: "Namespace: allegro.pl"
+      - name: "Namespace: allegro.pl"
         type: namespace
         rule: allegro.pl
         enable: true
-      - id: dd963f38
-        name: "Namespace: alphacoders.com"
+      - name: "Namespace: alphacoders.com"
         type: namespace
         rule: alphacoders.com
         enable: true
-      - id: d773a326
-        name: "Namespace: alza.hu"
+      - name: "Namespace: alza.hu"
         type: namespace
         rule: alza.hu
         enable: true
-      - id: 8aab153c
-        name: "Namespace: amazfitwatchfaces.com"
+      - name: "Namespace: amazfitwatchfaces.com"
         type: namespace
         rule: amazfitwatchfaces.com
         enable: true
-      - id: 874511ad
-        name: "Namespace: amdm.ru"
+      - name: "Namespace: amdm.ru"
         type: namespace
         rule: amdm.ru
         enable: true
-      - id: 31740875
-        name: "Namespace: amedia.site"
+      - name: "Namespace: amedia.site"
         type: namespace
         rule: amedia.site
         enable: true
-      - id: 144cd707
-        name: "Namespace: amnezia.org"
+      - name: "Namespace: amnezia.org"
         type: namespace
         rule: amnezia.org
         enable: true
-      - id: a8d6a190
-        name: "Namespace: amplitude.com"
+      - name: "Namespace: amplitude.com"
         type: namespace
         rule: amplitude.com
         enable: true
-      - id: 629e9ba6
-        name: "Namespace: amx.com"
+      - name: "Namespace: amx.com"
         type: namespace
         rule: amx.com
         enable: true
-      - id: 8ce5ba22
-        name: "Namespace: analog.com"
+      - name: "Namespace: analog.com"
         type: namespace
         rule: analog.com
         enable: true
-      - id: 673542b3
-        name: "Namespace: anidub.com"
+      - name: "Namespace: anidub.com"
         type: namespace
         rule: anidub.com
         enable: true
-      - id: ebed0995
-        name: "Namespace: anilibria.tv"
+      - name: "Namespace: anilibria.tv"
         type: namespace
         rule: anilibria.tv
         enable: true
-      - id: 01490c59
-        name: "Namespace: anilibria.uno"
+      - name: "Namespace: anilibria.uno"
         type: namespace
         rule: anilibria.uno
         enable: true
-      - id: 3a4ff3ba
-        name: "Namespace: animaunt.org"
+      - name: "Namespace: animaunt.org"
         type: namespace
         rule: animaunt.org
         enable: true
-      - id: e4d24eb3
-        name: "Namespace: anime-portal.su"
+      - name: "Namespace: anime-portal.su"
         type: namespace
         rule: anime-portal.su
         enable: true
-      - id: dafccdb6
-        name: "Namespace: animebest.org"
+      - name: "Namespace: animebest.org"
         type: namespace
         rule: animebest.org
         enable: true
-      - id: d948abd1
-        name: "Namespace: animedia.tv"
+      - name: "Namespace: animedia.tv"
         type: namespace
         rule: animedia.tv
         enable: true
-      - id: 6ab08c53
-        name: "Namespace: animego.org"
+      - name: "Namespace: animego.org"
         type: namespace
         rule: animego.org
         enable: true
-      - id: 07a807fd
-        name: "Namespace: animespirit.ru"
+      - name: "Namespace: animespirit.ru"
         type: namespace
         rule: animespirit.ru
         enable: true
-      - id: b7bca310
-        name: "Namespace: anistar.org"
+      - name: "Namespace: anistar.org"
         type: namespace
         rule: anistar.org
         enable: true
-      - id: d79bde6a
-        name: "Namespace: anistars.ru"
+      - name: "Namespace: anistars.ru"
         type: namespace
         rule: anistars.ru
         enable: true
-      - id: 4b647e04
-        name: "Namespace: annas-archive.org"
+      - name: "Namespace: annas-archive.org"
         type: namespace
         rule: annas-archive.org
         enable: true
-      - id: d1943f8c
-        name: "Namespace: anthropic.com"
+      - name: "Namespace: anthropic.com"
         type: namespace
         rule: anthropic.com
         enable: true
-      - id: 52e7dbcb
-        name: "Namespace: aol.com"
+      - name: "Namespace: aol.com"
         type: namespace
         rule: aol.com
         enable: true
-      - id: d429397d
-        name: "Namespace: api.jetbrains.ai"
+      - name: "Namespace: api.jetbrains.ai"
         type: namespace
         rule: api.jetbrains.ai
         enable: true
-      - id: 5310eefa
-        name: "Namespace: api.service-kp.com"
+      - name: "Namespace: api.service-kp.com"
         type: namespace
         rule: api.service-kp.com
         enable: true
-      - id: 1141d313
-        name: "Namespace: api.theins.info"
+      - name: "Namespace: api.theins.info"
         type: namespace
         rule: api.theins.info
         enable: true
-      - id: 3c3fb6dd
-        name: "Namespace: api.themoviedb.org"
+      - name: "Namespace: api.themoviedb.org"
         type: namespace
         rule: api.themoviedb.org
         enable: true
-      - id: 5121caf9
-        name: "Namespace: arbat.media"
+      - name: "Namespace: arbat.media"
         type: namespace
         rule: arbat.media
         enable: true
-      - id: c797938d
-        name: "Namespace: archive.ph"
+      - name: "Namespace: archive.ph"
         type: namespace
         rule: archive.ph
         enable: true
-      - id: ff58f29c
-        name: "Namespace: archiveofourown.org"
+      - name: "Namespace: archiveofourown.org"
         type: namespace
         rule: archiveofourown.org
         enable: true
-      - id: c7d50b21
-        name: "Namespace: as6723.net"
+      - name: "Namespace: as6723.net"
         type: namespace
         rule: as6723.net
         enable: true
-      - id: eb8a4a3a
-        name: "Namespace: assets.heroku.com"
+      - name: "Namespace: assets.heroku.com"
         type: namespace
         rule: assets.heroku.com
         enable: true
-      - id: 01d9cfa0
-        name: "Namespace: atn.ua"
+      - name: "Namespace: atn.ua"
         type: namespace
         rule: atn.ua
         enable: true
-      - id: a4d403c4
-        name: "Namespace: att.com"
+      - name: "Namespace: att.com"
         type: namespace
         rule: att.com
         enable: true
-      - id: 291ef322
-        name: "Namespace: attachments.f95zone.to"
+      - name: "Namespace: attachments.f95zone.to"
         type: namespace
         rule: attachments.f95zone.to
         enable: true
-      - id: 8909d2af
-        name: "Namespace: autodesk.com"
+      - name: "Namespace: autodesk.com"
         type: namespace
         rule: autodesk.com
         enable: true
-      - id: b29f375a
-        name: "Namespace: avira.com"
+      - name: "Namespace: avira.com"
         type: namespace
         rule: avira.com
         enable: true
-      - id: eb4bd67a
-        name: "Namespace: azathabar.com"
+      - name: "Namespace: azathabar.com"
         type: namespace
         rule: azathabar.com
         enable: true
-      - id: 3ff726fd
-        name: "Namespace: azattyq.org"
+      - name: "Namespace: azattyq.org"
         type: namespace
         rule: azattyq.org
         enable: true
-      - id: 7f047c5d
-        name: "Namespace: babook.org"
+      - name: "Namespace: babook.org"
         type: namespace
         rule: babook.org
         enable: true
-      - id: 4a33fdb9
-        name: "Namespace: baginya.org"
+      - name: "Namespace: baginya.org"
         type: namespace
         rule: baginya.org
         enable: true
-      - id: ac0a7ac1
-        name: "Namespace: baikal-journal.ru"
+      - name: "Namespace: baikal-journal.ru"
         type: namespace
         rule: baikal-journal.ru
         enable: true
-      - id: 69030218
-        name: "Namespace: bato.to"
+      - name: "Namespace: bato.to"
         type: namespace
         rule: bato.to
         enable: true
-      - id: 97dcafd7
-        name: "Namespace: bbc.co.uk"
+      - name: "Namespace: bbc.co.uk"
         type: namespace
         rule: bbc.co.uk
         enable: true
-      - id: 16fa79e7
-        name: "Namespace: bbc.com"
+      - name: "Namespace: bbc.com"
         type: namespace
         rule: bbc.com
         enable: true
-      - id: ded7da98
-        name: "Namespace: bbci.co.uk"
+      - name: "Namespace: bbci.co.uk"
         type: namespace
         rule: bbci.co.uk
         enable: true
-      - id: 7686cbc7
-        name: "Namespace: bcbits.com"
+      - name: "Namespace: bcbits.com"
         type: namespace
         rule: bcbits.com
         enable: true
-      - id: 07423ac9
-        name: "Namespace: bell-sw.com"
+      - name: "Namespace: bell-sw.com"
         type: namespace
         rule: bell-sw.com
         enable: true
-      - id: b350509b
-        name: "Namespace: bellingcat.com"
+      - name: "Namespace: bellingcat.com"
         type: namespace
         rule: bellingcat.com
         enable: true
-      - id: 910d072f
-        name: "Namespace: bestbuy.com"
+      - name: "Namespace: bestbuy.com"
         type: namespace
         rule: bestbuy.com
         enable: true
-      - id: 770b6a0c
-        name: "Namespace: bestchange.ru"
+      - name: "Namespace: bestchange.ru"
         type: namespace
         rule: bestchange.ru
         enable: true
-      - id: 8909c4ef
-        name: "Namespace: bihus.info"
+      - name: "Namespace: bihus.info"
         type: namespace
         rule: bihus.info
         enable: true
-      - id: 93a81310
-        name: "Namespace: bitdefender.com"
+      - name: "Namespace: bitdefender.com"
         type: namespace
         rule: bitdefender.com
         enable: true
-      - id: 3582700d
-        name: "Namespace: bitnami.com"
+      - name: "Namespace: bitnami.com"
         type: namespace
         rule: bitnami.com
         enable: true
-      - id: c10e6c65
-        name: "Namespace: blackseanews.net"
+      - name: "Namespace: blackseanews.net"
         type: namespace
         rule: blackseanews.net
         enable: true
-      - id: 794fd949
-        name: "Namespace: blinkshot.io"
+      - name: "Namespace: blinkshot.io"
         type: namespace
         rule: blinkshot.io
         enable: true
-      - id: 2d3e6403
-        name: "Namespace: bluehost.com"
+      - name: "Namespace: bluehost.com"
         type: namespace
         rule: bluehost.com
         enable: true
-      - id: 18c2024b
-        name: "Namespace: booktracker.org"
+      - name: "Namespace: booktracker.org"
         type: namespace
         rule: booktracker.org
         enable: true
-      - id: 520b8a3c
-        name: "Namespace: booth.pm"
+      - name: "Namespace: booth.pm"
         type: namespace
         rule: booth.pm
         enable: true
-      - id: 55a791a1
-        name: "Namespace: booth.pximg.net"
+      - name: "Namespace: booth.pximg.net"
         type: namespace
         rule: booth.pximg.net
         enable: true
-      - id: 89dca448
-        name: "Namespace: botnadzor.org"
+      - name: "Namespace: botnadzor.org"
         type: namespace
         rule: botnadzor.org
         enable: true
-      - id: fb97dc9c
-        name: "Namespace: brawlstarsgame.com"
+      - name: "Namespace: brawlstarsgame.com"
         type: namespace
         rule: brawlstarsgame.com
         enable: true
-      - id: 6489c2a4
-        name: "Namespace: broadcom.com"
+      - name: "Namespace: broadcom.com"
         type: namespace
         rule: broadcom.com
         enable: true
-      - id: cf5f9f25
-        name: "Namespace: broncosportforum.com"
+      - name: "Namespace: broncosportforum.com"
         type: namespace
         rule: broncosportforum.com
         enable: true
-      - id: 5f09bfbb
-        name: "Namespace: btdig.com"
+      - name: "Namespace: btdig.com"
         type: namespace
         rule: btdig.com
         enable: true
-      - id: 87ad5b29
-        name: "Namespace: btod.com"
+      - name: "Namespace: btod.com"
         type: namespace
         rule: btod.com
         enable: true
-      - id: 44254109
-        name: "Namespace: buanzo.org"
+      - name: "Namespace: buanzo.org"
         type: namespace
         rule: buanzo.org
         enable: true
-      - id: 65fdca0a
-        name: "Namespace: buf.build"
+      - name: "Namespace: buf.build"
         type: namespace
         rule: buf.build
         enable: true
-      - id: 0ac0c34a
-        name: "Namespace: builds.parsec.app"
+      - name: "Namespace: builds.parsec.app"
         type: namespace
         rule: builds.parsec.app
         enable: true
-      - id: 5688a7c2
-        name: "Namespace: buymeacoffee.com"
+      - name: "Namespace: buymeacoffee.com"
         type: namespace
         rule: buymeacoffee.com
         enable: true
-      - id: df621317
-        name: "Namespace: byteoversea.com"
+      - name: "Namespace: byteoversea.com"
         type: namespace
         rule: byteoversea.com
         enable: true
-      - id: 0cb63835
-        name: "Namespace: canva.com"
+      - name: "Namespace: canva.com"
         type: namespace
         rule: canva.com
         enable: true
-      - id: 64976edd
-        name: "Namespace: canva.dev"
+      - name: "Namespace: canva.dev"
         type: namespace
         rule: canva.dev
         enable: true
-      - id: 7cd320ac
-        name: "Namespace: capacitorjs.com"
+      - name: "Namespace: capacitorjs.com"
         type: namespace
         rule: capacitorjs.com
         enable: true
-      - id: 28dad9dd
-        name: "Namespace: capcut.com"
+      - name: "Namespace: capcut.com"
         type: namespace
         rule: capcut.com
         enable: true
-      - id: 763f8714
-        name: "Namespace: carnegieendowment.org"
+      - name: "Namespace: carnegieendowment.org"
         type: namespace
         rule: carnegieendowment.org
         enable: true
-      - id: 1654809c
-        name: "Namespace: carrefouruae.com"
+      - name: "Namespace: carrefouruae.com"
         type: namespace
         rule: carrefouruae.com
         enable: true
-      - id: 47d61a57
-        name: "Namespace: cats.com"
+      - name: "Namespace: cats.com"
         type: namespace
         rule: cats.com
         enable: true
-      - id: 001cdd87
-        name: "Namespace: cbilling.eu"
+      - name: "Namespace: cbilling.eu"
         type: namespace
         rule: cbilling.eu
         enable: true
-      - id: 424b23c2
-        name: "Namespace: cbilling.vip"
+      - name: "Namespace: cbilling.vip"
         type: namespace
         rule: cbilling.vip
         enable: true
-      - id: 271c54d5
-        name: "Namespace: cdn.web-platform.io"
+      - name: "Namespace: cdn.web-platform.io"
         type: namespace
         rule: cdn.web-platform.io
         enable: true
-      - id: 56c70027
-        name: "Namespace: cdnbunny.org"
+      - name: "Namespace: cdnbunny.org"
         type: namespace
         rule: cdnbunny.org
         enable: true
-      - id: fb14c0e8
-        name: "Namespace: cdninstagram.com"
+      - name: "Namespace: cdninstagram.com"
         type: namespace
         rule: cdninstagram.com
         enable: true
-      - id: a8270b9d
-        name: "Namespace: cdromance.org"
+      - name: "Namespace: cdromance.org"
         type: namespace
         rule: cdromance.org
         enable: true
-      - id: 2f99e5f4
-        name: "Namespace: cdw.com"
+      - name: "Namespace: cdw.com"
         type: namespace
         rule: cdw.com
         enable: true
-      - id: ae3c88ad
-        name: "Namespace: censortracker.org"
+      - name: "Namespace: censortracker.org"
         type: namespace
         rule: censortracker.org
         enable: true
-      - id: 2dd8e69d
-        name: "Namespace: chaos.com"
+      - name: "Namespace: chaos.com"
         type: namespace
         rule: chaos.com
         enable: true
-      - id: 5536f5d6
-        name: "Namespace: chat.com"
+      - name: "Namespace: chat.com"
         type: namespace
         rule: chat.com
         enable: true
-      - id: 19592e48
-        name: "Namespace: chat.openai.com.cdn.cloudflare.net"
+      - name: "Namespace: chat.openai.com.cdn.cloudflare.net"
         type: namespace
         rule: chat.openai.com.cdn.cloudflare.net
         enable: true
-      - id: 2317c64a
-        name: "Namespace: chatgpt.com"
+      - name: "Namespace: chatgpt.com"
         type: namespace
         rule: chatgpt.com
         enable: true
-      - id: 48858a62
-        name: "Namespace: chaturbate.com"
+      - name: "Namespace: chaturbate.com"
         type: namespace
         rule: chaturbate.com
         enable: true
-      - id: d5d678a9
-        name: "Namespace: cherta.media"
+      - name: "Namespace: cherta.media"
         type: namespace
         rule: cherta.media
         enable: true
-      - id: 0a066887
-        name: "Namespace: chess.com"
+      - name: "Namespace: chess.com"
         type: namespace
         rule: chess.com
         enable: true
-      - id: 895d8823
-        name: "Namespace: cisco.com"
+      - name: "Namespace: cisco.com"
         type: namespace
         rule: cisco.com
         enable: true
-      - id: b9fb5757
-        name: "Namespace: clamav.net"
+      - name: "Namespace: clamav.net"
         type: namespace
         rule: clamav.net
         enable: true
-      - id: 7c6bc9f2
-        name: "Namespace: clashofclans.com"
+      - name: "Namespace: clashofclans.com"
         type: namespace
         rule: clashofclans.com
         enable: true
-      - id: d1a249bd
-        name: "Namespace: clashroyaleapp.com"
+      - name: "Namespace: clashroyaleapp.com"
         type: namespace
         rule: clashroyaleapp.com
         enable: true
-      - id: 6e2cf5ad
-        name: "Namespace: claude.ai"
+      - name: "Namespace: claude.ai"
         type: namespace
         rule: claude.ai
         enable: true
-      - id: d62fe35d
-        name: "Namespace: clickup.com"
+      - name: "Namespace: clickup.com"
         type: namespace
         rule: clickup.com
         enable: true
-      - id: cfeb95a4
-        name: "Namespace: clip.opus.pro"
+      - name: "Namespace: clip.opus.pro"
         type: namespace
         rule: clip.opus.pro
         enable: true
-      - id: aa44ab87
-        name: "Namespace: cms-twdigitalassets.com"
+      - name: "Namespace: cms-twdigitalassets.com"
         type: namespace
         rule: cms-twdigitalassets.com
         enable: true
-      - id: 2efb37b5
-        name: "Namespace: cnd2exp.online"
+      - name: "Namespace: cnd2exp.online"
         type: namespace
         rule: cnd2exp.online
         enable: true
-      - id: aef6ac80
-        name: "Namespace: cock.li"
+      - name: "Namespace: cock.li"
         type: namespace
         rule: cock.li
         enable: true
-      - id: 1bbe66d3
-        name: "Namespace: codeium.com"
+      - name: "Namespace: codeium.com"
         type: namespace
         rule: codeium.com
         enable: true
-      - id: 8b8131e1
-        name: "Namespace: coingate.com"
+      - name: "Namespace: coingate.com"
         type: namespace
         rule: coingate.com
         enable: true
-      - id: 0d32d874
-        name: "Namespace: coinpayments.net"
+      - name: "Namespace: coinpayments.net"
         type: namespace
         rule: coinpayments.net
         enable: true
-      - id: 6aa0f946
-        name: "Namespace: coinsbee.com"
+      - name: "Namespace: coinsbee.com"
         type: namespace
         rule: coinsbee.com
         enable: true
-      - id: 7908bb62
-        name: "Namespace: coldfilm.xyz"
+      - name: "Namespace: coldfilm.xyz"
         type: namespace
         rule: coldfilm.xyz
         enable: true
-      - id: 8c77cacf
-        name: "Namespace: colta.ru"
+      - name: "Namespace: colta.ru"
         type: namespace
         rule: colta.ru
         enable: true
-      - id: d495c0da
-        name: "Namespace: community.sophos.com"
+      - name: "Namespace: community.sophos.com"
         type: namespace
         rule: community.sophos.com
         enable: true
-      - id: d184d8ac
-        name: "Namespace: contabo.com"
+      - name: "Namespace: contabo.com"
         type: namespace
         rule: contabo.com
         enable: true
-      - id: 2221635a
-        name: "Namespace: coomer.su"
+      - name: "Namespace: coomer.su"
         type: namespace
         rule: coomer.su
         enable: true
-      - id: 068f7d07
-        name: "Namespace: copilot.microsoft.com"
+      - name: "Namespace: copilot.microsoft.com"
         type: namespace
         rule: copilot.microsoft.com
         enable: true
-      - id: 171d3a03
-        name: "Namespace: corsair.com"
+      - name: "Namespace: corsair.com"
         type: namespace
         rule: corsair.com
         enable: true
-      - id: e53133c4
-        name: "Namespace: coursera.org"
+      - name: "Namespace: coursera.org"
         type: namespace
         rule: coursera.org
         enable: true
-      - id: ba0e539d
-        name: "Namespace: cpu-monkey.com"
+      - name: "Namespace: cpu-monkey.com"
         type: namespace
         rule: cpu-monkey.com
         enable: true
-      - id: a4a53468
-        name: "Namespace: credly.com"
+      - name: "Namespace: credly.com"
         type: namespace
         rule: credly.com
         enable: true
-      - id: 939f47be
-        name: "Namespace: crunchyroll.com"
+      - name: "Namespace: crunchyroll.com"
         type: namespace
         rule: crunchyroll.com
         enable: true
-      - id: d5111b76
-        name: "Namespace: csskor.ill.in.ua"
+      - name: "Namespace: csskor.ill.in.ua"
         type: namespace
         rule: csskor.ill.in.ua
         enable: true
-      - id: d9323eb4
-        name: "Namespace: cub.red"
+      - name: "Namespace: cub.red"
         type: namespace
         rule: cub.red
         enable: true
-      - id: 247279b8
-        name: "Namespace: currenttime.tv"
+      - name: "Namespace: currenttime.tv"
         type: namespace
         rule: currenttime.tv
         enable: true
-      - id: 41255327
-        name: "Namespace: cursorinfo.co.il"
+      - name: "Namespace: cursorinfo.co.il"
         type: namespace
         rule: cursorinfo.co.il
         enable: true
-      - id: 16347f96
-        name: "Namespace: cvedetails.com"
+      - name: "Namespace: cvedetails.com"
         type: namespace
         rule: cvedetails.com
         enable: true
-      - id: 2a6d9f5f
-        name: "Namespace: cyberghostvpn.com"
+      - name: "Namespace: cyberghostvpn.com"
         type: namespace
         rule: cyberghostvpn.com
         enable: true
-      - id: 528f758e
-        name: "Namespace: cyxymu.info"
+      - name: "Namespace: cyxymu.info"
         type: namespace
         rule: cyxymu.info
         enable: true
-      - id: 8be32828
-        name: "Namespace: daemon-tools.cc"
+      - name: "Namespace: daemon-tools.cc"
         type: namespace
         rule: daemon-tools.cc
         enable: true
-      - id: b7b15c4d
-        name: "Namespace: danbooru.donmai.us"
+      - name: "Namespace: danbooru.donmai.us"
         type: namespace
         rule: danbooru.donmai.us
         enable: true
-      - id: 3f53646f
-        name: "Namespace: data-cdn.mbamupdates.com"
+      - name: "Namespace: data-cdn.mbamupdates.com"
         type: namespace
         rule: data-cdn.mbamupdates.com
         enable: true
-      - id: 6785ec00
-        name: "Namespace: decrypt.day"
+      - name: "Namespace: decrypt.day"
         type: namespace
         rule: decrypt.day
         enable: true
-      - id: 541d01ac
-        name: "Namespace: deepstatemap.live"
+      - name: "Namespace: deepstatemap.live"
         type: namespace
         rule: deepstatemap.live
         enable: true
-      - id: 8a8aacb9
-        name: "Namespace: delfi.lt"
+      - name: "Namespace: delfi.lt"
         type: namespace
         rule: delfi.lt
         enable: true
-      - id: 11cbd5a0
-        name: "Namespace: delfi.lv"
+      - name: "Namespace: delfi.lv"
         type: namespace
         rule: delfi.lv
         enable: true
-      - id: dc2199d6
-        name: "Namespace: dell.com"
+      - name: "Namespace: dell.com"
         type: namespace
         rule: dell.com
         enable: true
-      - id: 0b6acef5
-        name: "Namespace: dellcdn.com"
+      - name: "Namespace: dellcdn.com"
         type: namespace
         rule: dellcdn.com
         enable: true
-      - id: dfcdd756
-        name: "Namespace: depositphotos.com"
+      - name: "Namespace: depositphotos.com"
         type: namespace
         rule: depositphotos.com
         enable: true
-      - id: f4a14689
-        name: "Namespace: designer.microsoft.com"
+      - name: "Namespace: designer.microsoft.com"
         type: namespace
         rule: designer.microsoft.com
         enable: true
-      - id: 68595393
-        name: "Namespace: designify.com"
+      - name: "Namespace: designify.com"
         type: namespace
         rule: designify.com
         enable: true
-      - id: 57757009
-        name: "Namespace: developer.nvidia.com"
+      - name: "Namespace: developer.nvidia.com"
         type: namespace
         rule: developer.nvidia.com
         enable: true
-      - id: 2b8918bb
-        name: "Namespace: deviantart.com"
+      - name: "Namespace: deviantart.com"
         type: namespace
         rule: deviantart.com
         enable: true
-      - id: 8ea75e35
-        name: "Namespace: digash.live"
+      - name: "Namespace: digash.live"
         type: namespace
         rule: digash.live
         enable: true
-      - id: 80ca56a6
-        name: "Namespace: digikey.com"
+      - name: "Namespace: digikey.com"
         type: namespace
         rule: digikey.com
         enable: true
-      - id: 9f91f40c
-        name: "Namespace: digitalcontent.sky"
+      - name: "Namespace: digitalcontent.sky"
         type: namespace
         rule: digitalcontent.sky
         enable: true
-      - id: 7112943b
-        name: "Namespace: digitalocean.com"
+      - name: "Namespace: digitalocean.com"
         type: namespace
         rule: digitalocean.com
         enable: true
-      - id: 9bf950a7
-        name: "Namespace: dis.gd"
+      - name: "Namespace: dis.gd"
         type: namespace
         rule: dis.gd
         enable: true
-      - id: 6c414227
-        name: "Namespace: discord-activities.com"
+      - name: "Namespace: discord-activities.com"
         type: namespace
         rule: discord-activities.com
         enable: true
-      - id: 26319961
-        name: "Namespace: discord-attachments-uploads-prd.storage.googleapis.com"
+      - name: "Namespace: discord-attachments-uploads-prd.storage.googleapis.com"
         type: namespace
         rule: discord-attachments-uploads-prd.storage.googleapis.com
         enable: true
-      - id: 5156a085
-        name: "Namespace: discord.co"
+      - name: "Namespace: discord.co"
         type: namespace
         rule: discord.co
         enable: true
-      - id: 931ae5a6
-        name: "Namespace: discord.com"
+      - name: "Namespace: discord.com"
         type: namespace
         rule: discord.com
         enable: true
-      - id: 72c2947b
-        name: "Namespace: discord.design"
+      - name: "Namespace: discord.design"
         type: namespace
         rule: discord.design
         enable: true
-      - id: 7f2d0934
-        name: "Namespace: discord.dev"
+      - name: "Namespace: discord.dev"
         type: namespace
         rule: discord.dev
         enable: true
-      - id: bf7b6e3c
-        name: "Namespace: discord.gg"
+      - name: "Namespace: discord.gg"
         type: namespace
         rule: discord.gg
         enable: true
-      - id: 7691216f
-        name: "Namespace: discord.gift"
+      - name: "Namespace: discord.gift"
         type: namespace
         rule: discord.gift
         enable: true
-      - id: 6cc16d1a
-        name: "Namespace: discord.gifts"
+      - name: "Namespace: discord.gifts"
         type: namespace
         rule: discord.gifts
         enable: true
-      - id: bc0929d4
-        name: "Namespace: discord.media"
+      - name: "Namespace: discord.media"
         type: namespace
         rule: discord.media
         enable: true
-      - id: dc24b0a5
-        name: "Namespace: discord.new"
+      - name: "Namespace: discord.new"
         type: namespace
         rule: discord.new
         enable: true
-      - id: 95956412
-        name: "Namespace: discord.store"
+      - name: "Namespace: discord.store"
         type: namespace
         rule: discord.store
         enable: true
-      - id: 3ccac458
-        name: "Namespace: discord.tools"
+      - name: "Namespace: discord.tools"
         type: namespace
         rule: discord.tools
         enable: true
-      - id: 9808ddda
-        name: "Namespace: discordactivities.com"
+      - name: "Namespace: discordactivities.com"
         type: namespace
         rule: discordactivities.com
         enable: true
-      - id: 6eb85670
-        name: "Namespace: discordapp.com"
+      - name: "Namespace: discordapp.com"
         type: namespace
         rule: discordapp.com
         enable: true
-      - id: 320a9475
-        name: "Namespace: discordapp.net"
+      - name: "Namespace: discordapp.net"
         type: namespace
         rule: discordapp.net
         enable: true
-      - id: d11070cb
-        name: "Namespace: discordmerch.com"
+      - name: "Namespace: discordmerch.com"
         type: namespace
         rule: discordmerch.com
         enable: true
-      - id: b3cf6a98
-        name: "Namespace: discordpartygames.com"
+      - name: "Namespace: discordpartygames.com"
         type: namespace
         rule: discordpartygames.com
         enable: true
-      - id: aa78cfdc
-        name: "Namespace: discordsays.com"
+      - name: "Namespace: discordsays.com"
         type: namespace
         rule: discordsays.com
         enable: true
-      - id: d239081f
-        name: "Namespace: discours.io"
+      - name: "Namespace: discours.io"
         type: namespace
         rule: discours.io
         enable: true
-      - id: 668e74d9
-        name: "Namespace: disctech.com"
+      - name: "Namespace: disctech.com"
         type: namespace
         rule: disctech.com
         enable: true
-      - id: e8983fab
-        name: "Namespace: disneyplus.com"
+      - name: "Namespace: disneyplus.com"
         type: namespace
         rule: disneyplus.com
         enable: true
-      - id: a0208ce4
-        name: "Namespace: docs.liquibase.com"
+      - name: "Namespace: docs.liquibase.com"
         type: namespace
         rule: docs.liquibase.com
         enable: true
-      - id: 369ab11d
-        name: "Namespace: dorama.live"
+      - name: "Namespace: dorama.live"
         type: namespace
         rule: dorama.live
         enable: true
-      - id: f6cff4cf
-        name: "Namespace: doramalive.ru"
+      - name: "Namespace: doramalive.ru"
         type: namespace
         rule: doramalive.ru
         enable: true
-      - id: 0eae5e70
-        name: "Namespace: doramy.club"
+      - name: "Namespace: doramy.club"
         type: namespace
         rule: doramy.club
         enable: true
-      - id: 8aab153e
-        name: "Namespace: dovod.online"
+      - name: "Namespace: dovod.online"
         type: namespace
         rule: dovod.online
         enable: true
-      - id: abfe033d
-        name: "Namespace: download3.omnissa.com"
+      - name: "Namespace: download3.omnissa.com"
         type: namespace
         rule: download3.omnissa.com
         enable: true
-      - id: 6994f128
-        name: "Namespace: doxa.team"
+      - name: "Namespace: doxa.team"
         type: namespace
         rule: doxa.team
         enable: true
-      - id: 2bca76d3
-        name: "Namespace: dpidetector.org"
+      - name: "Namespace: dpidetector.org"
         type: namespace
         rule: dpidetector.org
         enable: true
-      - id: 7d567ffb
-        name: "Namespace: dreamhost.com"
+      - name: "Namespace: dreamhost.com"
         type: namespace
         rule: dreamhost.com
         enable: true
-      - id: afcbc2da
-        name: "Namespace: ducati.com"
+      - name: "Namespace: ducati.com"
         type: namespace
         rule: ducati.com
         enable: true
-      - id: 02a8ef18
-        name: "Namespace: dw.com"
+      - name: "Namespace: dw.com"
         type: namespace
         rule: dw.com
         enable: true
-      - id: 7983508f
-        name: "Namespace: e621.net"
+      - name: "Namespace: e621.net"
         type: namespace
         rule: e621.net
         enable: true
-      - id: c6593925
-        name: "Namespace: echofm.online"
+      - name: "Namespace: echofm.online"
         type: namespace
         rule: echofm.online
         enable: true
-      - id: d1eac5e0
-        name: "Namespace: edu-cisco.org"
+      - name: "Namespace: edu-cisco.org"
         type: namespace
         rule: edu-cisco.org
         enable: true
-      - id: 84908e6b
-        name: "Namespace: ef.com"
+      - name: "Namespace: ef.com"
         type: namespace
         rule: ef.com
         enable: true
-      - id: 4a1eb8ac
-        name: "Namespace: ef.edu"
+      - name: "Namespace: ef.edu"
         type: namespace
         rule: ef.edu
         enable: true
-      - id: 536f49f4
-        name: "Namespace: eggertspiele.de"
+      - name: "Namespace: eggertspiele.de"
         type: namespace
         rule: eggertspiele.de
         enable: true
-      - id: df80b31c
-        name: "Namespace: ej.ru"
+      - name: "Namespace: ej.ru"
         type: namespace
         rule: ej.ru
         enable: true
-      - id: 8b6f73f9
-        name: "Namespace: ekhokavkaza.com"
+      - name: "Namespace: ekhokavkaza.com"
         type: namespace
         rule: ekhokavkaza.com
         enable: true
-      - id: e2a032af
-        name: "Namespace: element14.com"
+      - name: "Namespace: element14.com"
         type: namespace
         rule: element14.com
         enable: true
-      - id: 679b465e
-        name: "Namespace: elevenlabs.io"
+      - name: "Namespace: elevenlabs.io"
         type: namespace
         rule: elevenlabs.io
         enable: true
-      - id: dbb1e3bc
-        name: "Namespace: epidemz.net.co"
+      - name: "Namespace: epidemz.net.co"
         type: namespace
         rule: epidemz.net.co
         enable: true
-      - id: bf5de8c5
-        name: "Namespace: etsy.com"
+      - name: "Namespace: etsy.com"
         type: namespace
         rule: etsy.com
         enable: true
-      - id: 4f48a405
-        name: "Namespace: euronews.com"
+      - name: "Namespace: euronews.com"
         type: namespace
         rule: euronews.com
         enable: true
-      - id: 70ae58ce
-        name: "Namespace: euroradio.fm"
+      - name: "Namespace: euroradio.fm"
         type: namespace
         rule: euroradio.fm
         enable: true
-      - id: b2a83b65
-        name: "Namespace: eutrp.eu"
+      - name: "Namespace: eutrp.eu"
         type: namespace
         rule: eutrp.eu
         enable: true
-      - id: 15fdcade
-        name: "Namespace: everand.com"
+      - name: "Namespace: everand.com"
         type: namespace
         rule: everand.com
         enable: true
-      - id: 103f0d72
-        name: "Namespace: exler.ru"
+      - name: "Namespace: exler.ru"
         type: namespace
         rule: exler.ru
         enable: true
-      - id: d0983371
-        name: "Namespace: expres.online"
+      - name: "Namespace: expres.online"
         type: namespace
         rule: expres.online
         enable: true
-      - id: 06efaeb4
-        name: "Namespace: extremetech.com"
+      - name: "Namespace: extremetech.com"
         type: namespace
         rule: extremetech.com
         enable: true
-      - id: 9ce4f3b1
-        name: "Namespace: f1.com"
+      - name: "Namespace: f1.com"
         type: namespace
         rule: f1.com
         enable: true
-      - id: 265ac797
-        name: "Namespace: f95-zone.to"
+      - name: "Namespace: f95-zone.to"
         type: namespace
         rule: f95-zone.to
         enable: true
-      - id: ad9cb1df
-        name: "Namespace: facebook.com"
+      - name: "Namespace: facebook.com"
         type: namespace
         rule: facebook.com
         enable: true
-      - id: 8b118878
-        name: "Namespace: facebook.net"
+      - name: "Namespace: facebook.net"
         type: namespace
         rule: facebook.net
         enable: true
-      - id: 4b11255d
-        name: "Namespace: fast-torrent.club"
+      - name: "Namespace: fast-torrent.club"
         type: namespace
         rule: fast-torrent.club
         enable: true
-      - id: a8a20e3b
-        name: "Namespace: fast.com"
+      - name: "Namespace: fast.com"
         type: namespace
         rule: fast.com
         enable: true
-      - id: f47100f2
-        name: "Namespace: fb.com"
+      - name: "Namespace: fb.com"
         type: namespace
         rule: fb.com
         enable: true
-      - id: fe61c2b5
-        name: "Namespace: fbcdn.net"
+      - name: "Namespace: fbcdn.net"
         type: namespace
         rule: fbcdn.net
         enable: true
-      - id: 044d46d2
-        name: "Namespace: fbsbx.com"
+      - name: "Namespace: fbsbx.com"
         type: namespace
         rule: fbsbx.com
         enable: true
-      - id: cefa9503
-        name: "Namespace: ficbook.net"
+      - name: "Namespace: ficbook.net"
         type: namespace
         rule: ficbook.net
         enable: true
-      - id: 5c7c2142
-        name: "Namespace: filmitorrent.net"
+      - name: "Namespace: filmitorrent.net"
         type: namespace
         rule: filmitorrent.net
         enable: true
-      - id: 34d1136a
-        name: "Namespace: filmix.ac"
+      - name: "Namespace: filmix.ac"
         type: namespace
         rule: filmix.ac
         enable: true
-      - id: 67d06aec
-        name: "Namespace: filmix.biz"
+      - name: "Namespace: filmix.biz"
         type: namespace
         rule: filmix.biz
         enable: true
-      - id: e565a606
-        name: "Namespace: filmix.day"
+      - name: "Namespace: filmix.day"
         type: namespace
         rule: filmix.day
         enable: true
-      - id: 61b6b2ba
-        name: "Namespace: filmix.fm"
+      - name: "Namespace: filmix.fm"
         type: namespace
         rule: filmix.fm
         enable: true
-      - id: bba28dc8
-        name: "Namespace: filmix.la"
+      - name: "Namespace: filmix.la"
         type: namespace
         rule: filmix.la
         enable: true
-      - id: a8d2afb6
-        name: "Namespace: flibusta.is"
+      - name: "Namespace: flibusta.is"
         type: namespace
         rule: flibusta.is
         enable: true
-      - id: 39468d3c
-        name: "Namespace: flibusta.net"
+      - name: "Namespace: flibusta.net"
         type: namespace
         rule: flibusta.net
         enable: true
-      - id: fa876d9e
-        name: "Namespace: flipboard.com"
+      - name: "Namespace: flipboard.com"
         type: namespace
         rule: flipboard.com
         enable: true
-      - id: af60265a
-        name: "Namespace: flir.com"
+      - name: "Namespace: flir.com"
         type: namespace
         rule: flir.com
         enable: true
-      - id: 91f3b2d3
-        name: "Namespace: flir.eu"
+      - name: "Namespace: flir.eu"
         type: namespace
         rule: flir.eu
         enable: true
-      - id: 79c17c5c
-        name: "Namespace: flourish.studio"
+      - name: "Namespace: flourish.studio"
         type: namespace
         rule: flourish.studio
         enable: true
-      - id: 86194431
-        name: "Namespace: fls.guru"
+      - name: "Namespace: fls.guru"
         type: namespace
         rule: fls.guru
         enable: true
-      - id: b643d741
-        name: "Namespace: fluke.com"
+      - name: "Namespace: fluke.com"
         type: namespace
         rule: fluke.com
         enable: true
-      - id: 45ca8e7a
-        name: "Namespace: flukenetworks.com"
+      - name: "Namespace: flukenetworks.com"
         type: namespace
         rule: flukenetworks.com
         enable: true
-      - id: a4d32b07
-        name: "Namespace: fn-volga.ru"
+      - name: "Namespace: fn-volga.ru"
         type: namespace
         rule: fn-volga.ru
         enable: true
-      - id: d6c56b7a
-        name: "Namespace: fonge.org"
+      - name: "Namespace: fonge.org"
         type: namespace
         rule: fonge.org
         enable: true
-      - id: c1b974a5
-        name: "Namespace: footballapi.pulselive.com"
+      - name: "Namespace: footballapi.pulselive.com"
         type: namespace
         rule: footballapi.pulselive.com
         enable: true
-      - id: 741e15fa
-        name: "Namespace: force-user-content.com"
+      - name: "Namespace: force-user-content.com"
         type: namespace
         rule: force-user-content.com
         enable: true
-      - id: df89e171
-        name: "Namespace: force.com"
+      - name: "Namespace: force.com"
         type: namespace
         rule: force.com
         enable: true
-      - id: 86d1bd92
-        name: "Namespace: forklog.com"
+      - name: "Namespace: forklog.com"
         type: namespace
         rule: forklog.com
         enable: true
-      - id: a7827a95
-        name: "Namespace: formula1.com"
+      - name: "Namespace: formula1.com"
         type: namespace
         rule: formula1.com
         enable: true
-      - id: 3c1ca4a4
-        name: "Namespace: fortanga.org"
+      - name: "Namespace: fortanga.org"
         type: namespace
         rule: fortanga.org
         enable: true
-      - id: 2d108448
-        name: "Namespace: forum.netgate.com"
+      - name: "Namespace: forum.netgate.com"
         type: namespace
         rule: forum.netgate.com
         enable: true
-      - id: 2c3654f8
-        name: "Namespace: forum.ru-board.com"
+      - name: "Namespace: forum.ru-board.com"
         type: namespace
         rule: forum.ru-board.com
         enable: true
-      - id: 640b45d3
-        name: "Namespace: foxnews.com"
+      - name: "Namespace: foxnews.com"
         type: namespace
         rule: foxnews.com
         enable: true
-      - id: 3257c21a
-        name: "Namespace: framer.com"
+      - name: "Namespace: framer.com"
         type: namespace
         rule: framer.com
         enable: true
-      - id: faaa86ad
-        name: "Namespace: freedomletters.org"
+      - name: "Namespace: freedomletters.org"
         type: namespace
         rule: freedomletters.org
         enable: true
-      - id: 02112bca
-        name: "Namespace: freeimages.com"
+      - name: "Namespace: freeimages.com"
         type: namespace
         rule: freeimages.com
         enable: true
-      - id: 621b6196
-        name: "Namespace: freemedia.io"
+      - name: "Namespace: freemedia.io"
         type: namespace
         rule: freemedia.io
         enable: true
-      - id: dae6d677
-        name: "Namespace: gagadget.com"
+      - name: "Namespace: gagadget.com"
         type: namespace
         rule: gagadget.com
         enable: true
-      - id: d4f8e959
-        name: "Namespace: gamedistribution.com"
+      - name: "Namespace: gamedistribution.com"
         type: namespace
         rule: gamedistribution.com
         enable: true
-      - id: b09f84e9
-        name: "Namespace: gamesrepack.com"
+      - name: "Namespace: gamesrepack.com"
         type: namespace
         rule: gamesrepack.com
         enable: true
-      - id: 450c13c7
-        name: "Namespace: gaming.amazon.com"
+      - name: "Namespace: gaming.amazon.com"
         type: namespace
         rule: gaming.amazon.com
         enable: true
-      - id: a03d4d57
-        name: "Namespace: geforcenow.com"
+      - name: "Namespace: geforcenow.com"
         type: namespace
         rule: geforcenow.com
         enable: true
-      - id: 74a9e6e5
-        name: "Namespace: gelbooru.com"
+      - name: "Namespace: gelbooru.com"
         type: namespace
         rule: gelbooru.com
         enable: true
-      - id: d45064ac
-        name: "Namespace: geolocation.onetrust.com"
+      - name: "Namespace: geolocation.onetrust.com"
         type: namespace
         rule: geolocation.onetrust.com
         enable: true
-      - id: 11d074fc
-        name: "Namespace: germania.one"
+      - name: "Namespace: germania.one"
         type: namespace
         rule: germania.one
         enable: true
-      - id: 9983d741
-        name: "Namespace: getoutline.com"
+      - name: "Namespace: getoutline.com"
         type: namespace
         rule: getoutline.com
         enable: true
-      - id: b7e3be09
-        name: "Namespace: getoutline.org"
+      - name: "Namespace: getoutline.org"
         type: namespace
         rule: getoutline.org
         enable: true
-      - id: 9912b1c7
-        name: "Namespace: gfn.am"
+      - name: "Namespace: gfn.am"
         type: namespace
         rule: gfn.am
         enable: true
-      - id: 72ed316e
-        name: "Namespace: ggpht.com"
+      - name: "Namespace: ggpht.com"
         type: namespace
         rule: ggpht.com
         enable: true
-      - id: 16212a3d
-        name: "Namespace: ghostrc.game.idtech.services"
+      - name: "Namespace: ghostrc.game.idtech.services"
         type: namespace
         rule: ghostrc.game.idtech.services
         enable: true
-      - id: b258ebb8
-        name: "Namespace: global.fncstatic.com"
+      - name: "Namespace: global.fncstatic.com"
         type: namespace
         rule: global.fncstatic.com
         enable: true
-      - id: 316eac62
-        name: "Namespace: glpals.com"
+      - name: "Namespace: glpals.com"
         type: namespace
         rule: glpals.com
         enable: true
-      - id: 764441a5
-        name: "Namespace: godaddy.com"
+      - name: "Namespace: godaddy.com"
         type: namespace
         rule: godaddy.com
         enable: true
-      - id: 1c753ec1
-        name: "Namespace: gofile.io"
+      - name: "Namespace: gofile.io"
         type: namespace
         rule: gofile.io
         enable: true
-      - id: 6cb6ac77
-        name: "Namespace: gofundme.com"
+      - name: "Namespace: gofundme.com"
         type: namespace
         rule: gofundme.com
         enable: true
-      - id: ae77c9b4
-        name: "Namespace: golosameriki.com"
+      - name: "Namespace: golosameriki.com"
         type: namespace
         rule: golosameriki.com
         enable: true
-      - id: bd7e87c7
-        name: "Namespace: gonitro.com"
+      - name: "Namespace: gonitro.com"
         type: namespace
         rule: gonitro.com
         enable: true
-      - id: 43955f1c
-        name: "Namespace: goodreads.com"
+      - name: "Namespace: goodreads.com"
         type: namespace
         rule: goodreads.com
         enable: true
-      - id: cf24ed2f
-        name: "Namespace: googlevideo.com"
+      - name: "Namespace: googlevideo.com"
         type: namespace
         rule: googlevideo.com
         enable: true
-      - id: 46a35db7
-        name: "Namespace: gpsonextra.net"
+      - name: "Namespace: gpsonextra.net"
         type: namespace
         rule: gpsonextra.net
         enable: true
-      - id: f18ba5a4
-        name: "Namespace: gpu-monkey.com"
+      - name: "Namespace: gpu-monkey.com"
         type: namespace
         rule: gpu-monkey.com
         enable: true
-      - id: 23f381bb
-        name: "Namespace: gr-assets.com"
+      - name: "Namespace: gr-assets.com"
         type: namespace
         rule: gr-assets.com
         enable: true
-      - id: 270d8c00
-        name: "Namespace: grafana.com"
+      - name: "Namespace: grafana.com"
         type: namespace
         rule: grafana.com
         enable: true
-      - id: faad94df
-        name: "Namespace: grani.ru"
+      - name: "Namespace: grani.ru"
         type: namespace
         rule: grani.ru
         enable: true
-      - id: 3cc42042
-        name: "Namespace: graty.me"
+      - name: "Namespace: graty.me"
         type: namespace
         rule: graty.me
         enable: true
-      - id: ff7a3b0a
-        name: "Namespace: graylog.org"
+      - name: "Namespace: graylog.org"
         type: namespace
         rule: graylog.org
         enable: true
-      - id: 504fe66c
-        name: "Namespace: grok.com"
+      - name: "Namespace: grok.com"
         type: namespace
         rule: grok.com
         enable: true
-      - id: 950bb6a5
-        name: "Namespace: groq.com"
+      - name: "Namespace: groq.com"
         type: namespace
         rule: groq.com
         enable: true
-      - id: 8bc621f1
-        name: "Namespace: groupon.com"
+      - name: "Namespace: groupon.com"
         type: namespace
         rule: groupon.com
         enable: true
-      - id: 645d2a10
-        name: "Namespace: guilded.gg"
+      - name: "Namespace: guilded.gg"
         type: namespace
         rule: guilded.gg
         enable: true
-      - id: 9e73bae9
-        name: "Namespace: gulagu.net"
+      - name: "Namespace: gulagu.net"
         type: namespace
         rule: gulagu.net
         enable: true
-      - id: d9fceb90
-        name: "Namespace: habr.com"
+      - name: "Namespace: habr.com"
         type: namespace
         rule: habr.com
         enable: true
-      - id: a45dda92
-        name: "Namespace: hackernoon.com"
+      - name: "Namespace: hackernoon.com"
         type: namespace
         rule: hackernoon.com
         enable: true
-      - id: cd2cba8a
-        name: "Namespace: hackmd.io"
+      - name: "Namespace: hackmd.io"
         type: namespace
         rule: hackmd.io
         enable: true
-      - id: c59fdd4c
-        name: "Namespace: halooglasi.com"
+      - name: "Namespace: halooglasi.com"
         type: namespace
         rule: halooglasi.com
         enable: true
-      - id: b21c61f6
-        name: "Namespace: hashicorp.com"
+      - name: "Namespace: hashicorp.com"
         type: namespace
         rule: hashicorp.com
         enable: true
-      - id: f1915dcc
-        name: "Namespace: hbomax.com"
+      - name: "Namespace: hbomax.com"
         type: namespace
         rule: hbomax.com
         enable: true
-      - id: 4fb71829
-        name: "Namespace: hd-rezka.tv"
+      - name: "Namespace: hd-rezka.tv"
         type: namespace
         rule: hd-rezka.tv
         enable: true
-      - id: b3ad5ba3
-        name: "Namespace: hdkinoteatr.com"
+      - name: "Namespace: hdkinoteatr.com"
         type: namespace
         rule: hdkinoteatr.com
         enable: true
-      - id: d13923f6
-        name: "Namespace: hdrezka.ac"
+      - name: "Namespace: hdrezka.ac"
         type: namespace
         rule: hdrezka.ac
         enable: true
-      - id: d8b52b0e
-        name: "Namespace: hdrezka.ag"
+      - name: "Namespace: hdrezka.ag"
         type: namespace
         rule: hdrezka.ag
         enable: true
-      - id: 8aab1543
-        name: "Namespace: hdrezka.me"
+      - name: "Namespace: hdrezka.me"
         type: namespace
         rule: hdrezka.me
         enable: true
-      - id: 4aa22629
-        name: "Namespace: healthline.com"
+      - name: "Namespace: healthline.com"
         type: namespace
         rule: healthline.com
         enable: true
-      - id: 910e34fa
-        name: "Namespace: hentai-foundry.com"
+      - name: "Namespace: hentai-foundry.com"
         type: namespace
         rule: hentai-foundry.com
         enable: true
-      - id: b3430aad
-        name: "Namespace: herokucdn.com"
+      - name: "Namespace: herokucdn.com"
         type: namespace
         rule: herokucdn.com
         enable: true
-      - id: cc564f22
-        name: "Namespace: hetzner.com"
+      - name: "Namespace: hetzner.com"
         type: namespace
         rule: hetzner.com
         enable: true
-      - id: 2800f6e6
-        name: "Namespace: hollisterco.com"
+      - name: "Namespace: hollisterco.com"
         type: namespace
         rule: hollisterco.com
         enable: true
-      - id: 53aaa173
-        name: "Namespace: holod.media"
+      - name: "Namespace: holod.media"
         type: namespace
         rule: holod.media
         enable: true
-      - id: a67fb34d
-        name: "Namespace: home-connect.com"
+      - name: "Namespace: home-connect.com"
         type: namespace
         rule: home-connect.com
         enable: true
-      - id: 9fbef11d
-        name: "Namespace: hostgator.com"
+      - name: "Namespace: hostgator.com"
         type: namespace
         rule: hostgator.com
         enable: true
-      - id: 4070b462
-        name: "Namespace: hostinger.com"
+      - name: "Namespace: hostinger.com"
         type: namespace
         rule: hostinger.com
         enable: true
-      - id: afe2f8a6
-        name: "Namespace: hotels.com"
+      - name: "Namespace: hotels.com"
         type: namespace
         rule: hotels.com
         enable: true
-      - id: a990179d
-        name: "Namespace: hqporner.com"
+      - name: "Namespace: hqporner.com"
         type: namespace
         rule: hqporner.com
         enable: true
-      - id: 709014cf
-        name: "Namespace: hromadske.ua"
+      - name: "Namespace: hromadske.ua"
         type: namespace
         rule: hromadske.ua
         enable: true
-      - id: 2e18bf5a
-        name: "Namespace: hs.fi"
+      - name: "Namespace: hs.fi"
         type: namespace
         rule: hs.fi
         enable: true
-      - id: 6f0c324d
-        name: "Namespace: htmhell.dev"
+      - name: "Namespace: htmhell.dev"
         type: namespace
         rule: htmhell.dev
         enable: true
-      - id: ddab587e
-        name: "Namespace: i.sakh.com"
+      - name: "Namespace: i.sakh.com"
         type: namespace
         rule: i.sakh.com
         enable: true
-      - id: 27bf6efa
-        name: "Namespace: ibm.com"
+      - name: "Namespace: ibm.com"
         type: namespace
         rule: ibm.com
         enable: true
-      - id: aab0af62
-        name: "Namespace: ibytedtos.com"
+      - name: "Namespace: ibytedtos.com"
         type: namespace
         rule: ibytedtos.com
         enable: true
-      - id: 00343c35
-        name: "Namespace: idelreal.org"
+      - name: "Namespace: idelreal.org"
         type: namespace
         rule: idelreal.org
         enable: true
-      - id: 1eb8343f
-        name: "Namespace: iedb.org"
+      - name: "Namespace: iedb.org"
         type: namespace
         rule: iedb.org
         enable: true
-      - id: 1cb2d457
-        name: "Namespace: ig.me"
+      - name: "Namespace: ig.me"
         type: namespace
         rule: ig.me
         enable: true
-      - id: fbe98109
-        name: "Namespace: ign.com"
+      - name: "Namespace: ign.com"
         type: namespace
         rule: ign.com
         enable: true
-      - id: 416fc529
-        name: "Namespace: iherb.com"
+      - name: "Namespace: iherb.com"
         type: namespace
         rule: iherb.com
         enable: true
-      - id: a46376e1
-        name: "Namespace: iichan.hk"
+      - name: "Namespace: iichan.hk"
         type: namespace
         rule: iichan.hk
         enable: true
-      - id: 26da7ef9
-        name: "Namespace: ilook.tv"
+      - name: "Namespace: ilook.tv"
         type: namespace
         rule: ilook.tv
         enable: true
-      - id: 30bad01c
-        name: "Namespace: image.tmdb.org"
+      - name: "Namespace: image.tmdb.org"
         type: namespace
         rule: image.tmdb.org
         enable: true
-      - id: 52a7aea2
-        name: "Namespace: important-stories.com"
+      - name: "Namespace: important-stories.com"
         type: namespace
         rule: important-stories.com
         enable: true
-      - id: bfcba766
-        name: "Namespace: indiehackers.com"
+      - name: "Namespace: indiehackers.com"
         type: namespace
         rule: indiehackers.com
         enable: true
-      - id: defd5cae
-        name: "Namespace: infineon.com"
+      - name: "Namespace: infineon.com"
         type: namespace
         rule: infineon.com
         enable: true
-      - id: 589c121e
-        name: "Namespace: instagram.com"
+      - name: "Namespace: instagram.com"
         type: namespace
         rule: instagram.com
         enable: true
-      - id: 539765eb
-        name: "Namespace: install.launcher.omniverse.nvidia.com"
+      - name: "Namespace: install.launcher.omniverse.nvidia.com"
         type: namespace
         rule: install.launcher.omniverse.nvidia.com
         enable: true
-      - id: a2fbf35b
-        name: "Namespace: intel.com"
+      - name: "Namespace: intel.com"
         type: namespace
         rule: intel.com
         enable: true
-      - id: d37a1849
-        name: "Namespace: intel.de"
+      - name: "Namespace: intel.de"
         type: namespace
         rule: intel.de
         enable: true
-      - id: a6e6932e
-        name: "Namespace: intel.nl"
+      - name: "Namespace: intel.nl"
         type: namespace
         rule: intel.nl
         enable: true
-      - id: 6a859842
-        name: "Namespace: intelix.sophos.com"
+      - name: "Namespace: intelix.sophos.com"
         type: namespace
         rule: intelix.sophos.com
         enable: true
-      - id: 1e85fe09
-        name: "Namespace: interactivebrokers.co.uk"
+      - name: "Namespace: interactivebrokers.co.uk"
         type: namespace
         rule: interactivebrokers.co.uk
         enable: true
-      - id: f88e442e
-        name: "Namespace: interfax.com.ua"
+      - name: "Namespace: interfax.com.ua"
         type: namespace
         rule: interfax.com.ua
         enable: true
-      - id: 898616f7
-        name: "Namespace: internalfb.com"
+      - name: "Namespace: internalfb.com"
         type: namespace
         rule: internalfb.com
         enable: true
-      - id: 228ec3ce
-        name: "Namespace: intuit.com"
+      - name: "Namespace: intuit.com"
         type: namespace
         rule: intuit.com
         enable: true
-      - id: aab32ca9
-        name: "Namespace: intuitibits.com"
+      - name: "Namespace: intuitibits.com"
         type: namespace
         rule: intuitibits.com
         enable: true
-      - id: 8464303b
-        name: "Namespace: ionos.com"
+      - name: "Namespace: ionos.com"
         type: namespace
         rule: ionos.com
         enable: true
-      - id: bcc1213d
-        name: "Namespace: iptv.online"
+      - name: "Namespace: iptv.online"
         type: namespace
         rule: iptv.online
         enable: true
-      - id: d30ebd60
-        name: "Namespace: is.fi"
+      - name: "Namespace: is.fi"
         type: namespace
         rule: is.fi
         enable: true
-      - id: de86047b
-        name: "Namespace: istories.media"
+      - name: "Namespace: istories.media"
         type: namespace
         rule: istories.media
         enable: true
-      - id: 8288b3f4
-        name: "Namespace: itninja.com"
+      - name: "Namespace: itninja.com"
         type: namespace
         rule: itninja.com
         enable: true
-      - id: 3f73c08f
-        name: "Namespace: itsmycity.ru"
+      - name: "Namespace: itsmycity.ru"
         type: namespace
         rule: itsmycity.ru
         enable: true
-      - id: 50322102
-        name: "Namespace: jamf.com"
+      - name: "Namespace: jamf.com"
         type: namespace
         rule: jamf.com
         enable: true
-      - id: 2a62b587
-        name: "Namespace: jetbrains.com"
+      - name: "Namespace: jetbrains.com"
         type: namespace
         rule: jetbrains.com
         enable: true
-      - id: fbd15ec0
-        name: "Namespace: jetbrains.space"
+      - name: "Namespace: jetbrains.space"
         type: namespace
         rule: jetbrains.space
         enable: true
-      - id: c06b5988
-        name: "Namespace: jnn-pa.googleapis.com"
+      - name: "Namespace: jnn-pa.googleapis.com"
         type: namespace
         rule: jnn-pa.googleapis.com
         enable: true
-      - id: 888911b7
-        name: "Namespace: jskor.ill.in.ua"
+      - name: "Namespace: jskor.ill.in.ua"
         type: namespace
         rule: jskor.ill.in.ua
         enable: true
-      - id: 419cd5e5
-        name: "Namespace: jut-su.net"
+      - name: "Namespace: jut-su.net"
         type: namespace
         rule: jut-su.net
         enable: true
-      - id: 6c74d2b5
-        name: "Namespace: jut.su"
+      - name: "Namespace: jut.su"
         type: namespace
         rule: jut.su
         enable: true
-      - id: a82509b2
-        name: "Namespace: kaktus.media"
+      - name: "Namespace: kaktus.media"
         type: namespace
         rule: kaktus.media
         enable: true
-      - id: 85fa48b7
-        name: "Namespace: kamatera.com"
+      - name: "Namespace: kamatera.com"
         type: namespace
         rule: kamatera.com
         enable: true
-      - id: b9f39791
-        name: "Namespace: kara.su"
+      - name: "Namespace: kara.su"
         type: namespace
         rule: kara.su
         enable: true
-      - id: 8aab163b
-        name: "Namespace: kasparov.ru"
+      - name: "Namespace: kasparov.ru"
         type: namespace
         rule: kasparov.ru
         enable: true
-      - id: a9e38600
-        name: "Namespace: kavkaz-uzel.eu"
+      - name: "Namespace: kavkaz-uzel.eu"
         type: namespace
         rule: kavkaz-uzel.eu
         enable: true
-      - id: 8929dc5e
-        name: "Namespace: kavkazr.com"
+      - name: "Namespace: kavkazr.com"
         type: namespace
         rule: kavkazr.com
         enable: true
-      - id: b561a085
-        name: "Namespace: kemono.su"
+      - name: "Namespace: kemono.su"
         type: namespace
         rule: kemono.su
         enable: true
-      - id: 851dd373
-        name: "Namespace: keysight.com"
+      - name: "Namespace: keysight.com"
         type: namespace
         rule: keysight.com
         enable: true
-      - id: d2305d7d
-        name: "Namespace: kino.pub"
+      - name: "Namespace: kino.pub"
         type: namespace
         rule: kino.pub
         enable: true
-      - id: 2e0cad59
-        name: "Namespace: kinogo.ec"
+      - name: "Namespace: kinogo.ec"
         type: namespace
         rule: kinogo.ec
         enable: true
-      - id: 1d2c2c5f
-        name: "Namespace: kinogo.la"
+      - name: "Namespace: kinogo.la"
         type: namespace
         rule: kinogo.la
         enable: true
-      - id: 7c0d3b86
-        name: "Namespace: kinogo.uk"
+      - name: "Namespace: kinogo.uk"
         type: namespace
         rule: kinogo.uk
         enable: true
-      - id: 64647709
-        name: "Namespace: kinovod.net"
+      - name: "Namespace: kinovod.net"
         type: namespace
         rule: kinovod.net
         enable: true
-      - id: d7ec9b22
-        name: "Namespace: kinozal.guru"
+      - name: "Namespace: kinozal.guru"
         type: namespace
         rule: kinozal.guru
         enable: true
-      - id: 74bc3d2a
-        name: "Namespace: kinozal.me"
+      - name: "Namespace: kinozal.me"
         type: namespace
         rule: kinozal.me
         enable: true
-      - id: 8d1bdf90
-        name: "Namespace: kinozal.tv"
+      - name: "Namespace: kinozal.tv"
         type: namespace
         rule: kinozal.tv
         enable: true
-      - id: 8e277ddc
-        name: "Namespace: kmail-lists.com"
+      - name: "Namespace: kmail-lists.com"
         type: namespace
         rule: kmail-lists.com
         enable: true
-      - id: 9836dd52
-        name: "Namespace: knews.kg"
+      - name: "Namespace: knews.kg"
         type: namespace
         rule: knews.kg
         enable: true
-      - id: 791b1450
-        name: "Namespace: knowyourmeme.com"
+      - name: "Namespace: knowyourmeme.com"
         type: namespace
         rule: knowyourmeme.com
         enable: true
-      - id: fc386103
-        name: "Namespace: kolsar.org"
+      - name: "Namespace: kolsar.org"
         type: namespace
         rule: kolsar.org
         enable: true
-      - id: ae75617b
-        name: "Namespace: kor.ill.in.ua"
+      - name: "Namespace: kor.ill.in.ua"
         type: namespace
         rule: kor.ill.in.ua
         enable: true
-      - id: 31e71dad
-        name: "Namespace: korrespondent.net"
+      - name: "Namespace: korrespondent.net"
         type: namespace
         rule: korrespondent.net
         enable: true
-      - id: 0942748f
-        name: "Namespace: kovcheg.live"
+      - name: "Namespace: kovcheg.live"
         type: namespace
         rule: kovcheg.live
         enable: true
-      - id: 1217217c
-        name: "Namespace: krymr.com"
+      - name: "Namespace: krymr.com"
         type: namespace
         rule: krymr.com
         enable: true
-      - id: a89f11c1
-        name: "Namespace: kupujemprodajem.com"
+      - name: "Namespace: kupujemprodajem.com"
         type: namespace
         rule: kupujemprodajem.com
         enable: true
-      - id: f2d2d8ca
-        name: "Namespace: kym-cdn.com"
+      - name: "Namespace: kym-cdn.com"
         type: namespace
         rule: kym-cdn.com
         enable: true
-      - id: 35233346
-        name: "Namespace: lambdalabs.com"
+      - name: "Namespace: lambdalabs.com"
         type: namespace
         rule: lambdalabs.com
         enable: true
-      - id: 59b96b92
-        name: "Namespace: lamcdn.net"
+      - name: "Namespace: lamcdn.net"
         type: namespace
         rule: lamcdn.net
         enable: true
-      - id: 5d17fe1b
-        name: "Namespace: ldoceonline.com"
+      - name: "Namespace: ldoceonline.com"
         type: namespace
         rule: ldoceonline.com
         enable: true
-      - id: e957ef65
-        name: "Namespace: le-production.tv"
+      - name: "Namespace: le-production.tv"
         type: namespace
         rule: le-production.tv
         enable: true
-      - id: 8f059ef3
-        name: "Namespace: leafletjs.com"
+      - name: "Namespace: leafletjs.com"
         type: namespace
         rule: leafletjs.com
         enable: true
-      - id: 57060cd4
-        name: "Namespace: libgen.li"
+      - name: "Namespace: libgen.li"
         type: namespace
         rule: libgen.li
         enable: true
-      - id: 8d4c52fb
-        name: "Namespace: licdn.com"
+      - name: "Namespace: licdn.com"
         type: namespace
         rule: licdn.com
         enable: true
-      - id: b30580f9
-        name: "Namespace: lidarr.audio"
+      - name: "Namespace: lidarr.audio"
         type: namespace
         rule: lidarr.audio
         enable: true
-      - id: acdeae4b
-        name: "Namespace: lifehacker.com"
+      - name: "Namespace: lifehacker.com"
         type: namespace
         rule: lifehacker.com
         enable: true
-      - id: 456e578c
-        name: "Namespace: lightning.ai"
+      - name: "Namespace: lightning.ai"
         type: namespace
         rule: lightning.ai
         enable: true
-      - id: 837ffca4
-        name: "Namespace: linear.app"
+      - name: "Namespace: linear.app"
         type: namespace
         rule: linear.app
         enable: true
-      - id: bb41365f
-        name: "Namespace: linkedin.com"
+      - name: "Namespace: linkedin.com"
         type: namespace
         rule: linkedin.com
         enable: true
-      - id: 0be12deb
-        name: "Namespace: linktr.ee"
+      - name: "Namespace: linktr.ee"
         type: namespace
         rule: linktr.ee
         enable: true
-      - id: 9cda98e7
-        name: "Namespace: livetv.sx"
+      - name: "Namespace: livetv.sx"
         type: namespace
         rule: livetv.sx
         enable: true
-      - id: eb91ea5c
-        name: "Namespace: liveuamap.com"
+      - name: "Namespace: liveuamap.com"
         type: namespace
         rule: liveuamap.com
         enable: true
-      - id: 18630c12
-        name: "Namespace: locals.md"
+      - name: "Namespace: locals.md"
         type: namespace
         rule: locals.md
         enable: true
-      - id: abfb4f9d
-        name: "Namespace: lolz.guru"
+      - name: "Namespace: lolz.guru"
         type: namespace
         rule: lolz.guru
         enable: true
-      - id: 39e63b27
-        name: "Namespace: lookerstudio.google.com"
+      - name: "Namespace: lookerstudio.google.com"
         type: namespace
         rule: lookerstudio.google.com
         enable: true
-      - id: e57ee38f
-        name: "Namespace: lostfilm.tv"
+      - name: "Namespace: lostfilm.tv"
         type: namespace
         rule: lostfilm.tv
         enable: true
-      - id: 1e76212c
-        name: "Namespace: lostfilmtv2.site"
+      - name: "Namespace: lostfilmtv2.site"
         type: namespace
         rule: lostfilmtv2.site
         enable: true
-      - id: 8aab253b
-        name: "Namespace: lucid.app"
+      - name: "Namespace: lucid.app"
         type: namespace
         rule: lucid.app
         enable: true
-      - id: 24cedab0
-        name: "Namespace: mail-api.proton.me"
+      - name: "Namespace: mail-api.proton.me"
         type: namespace
         rule: mail-api.proton.me
         enable: true
-      - id: e0ae9f40
-        name: "Namespace: mailfence.com"
+      - name: "Namespace: mailfence.com"
         type: namespace
         rule: mailfence.com
         enable: true
-      - id: a58305b6
-        name: "Namespace: mailo.com"
+      - name: "Namespace: mailo.com"
         type: namespace
         rule: mailo.com
         enable: true
-      - id: cd0e2ecf
-        name: "Namespace: malwarebytes.com"
+      - name: "Namespace: malwarebytes.com"
         type: namespace
         rule: malwarebytes.com
         enable: true
-      - id: 6545dd42
-        name: "Namespace: mangadex.org"
+      - name: "Namespace: mangadex.org"
         type: namespace
         rule: mangadex.org
         enable: true
-      - id: 86df2dba
-        name: "Namespace: mangahub.ru"
+      - name: "Namespace: mangahub.ru"
         type: namespace
         rule: mangahub.ru
         enable: true
-      - id: 0bb64d7c
-        name: "Namespace: mangapark.net"
+      - name: "Namespace: mangapark.net"
         type: namespace
         rule: mangapark.net
         enable: true
-      - id: 2562724a
-        name: "Namespace: manus.im"
+      - name: "Namespace: manus.im"
         type: namespace
         rule: manus.im
         enable: true
-      - id: fa11d8e7
-        name: "Namespace: mashable.com"
+      - name: "Namespace: mashable.com"
         type: namespace
         rule: mashable.com
         enable: true
-      - id: 9f6b1f74
-        name: "Namespace: mattermost.com"
+      - name: "Namespace: mattermost.com"
         type: namespace
         rule: mattermost.com
         enable: true
-      - id: 476f2769
-        name: "Namespace: max.com"
+      - name: "Namespace: max.com"
         type: namespace
         rule: max.com
         enable: true
-      - id: 6eb55437
-        name: "Namespace: mbk-news.appspot.com"
+      - name: "Namespace: mbk-news.appspot.com"
         type: namespace
         rule: mbk-news.appspot.com
         enable: true
-      - id: 9a58cfd6
-        name: "Namespace: mediazona.ca"
+      - name: "Namespace: mediazona.ca"
         type: namespace
         rule: mediazona.ca
         enable: true
-      - id: bc69fe79
-        name: "Namespace: medicalnewstoday.com"
+      - name: "Namespace: medicalnewstoday.com"
         type: namespace
         rule: medicalnewstoday.com
         enable: true
-      - id: c7fa9f91
-        name: "Namespace: medium.com"
+      - name: "Namespace: medium.com"
         type: namespace
         rule: medium.com
         enable: true
-      - id: 0387422c
-        name: "Namespace: meduza.io"
+      - name: "Namespace: meduza.io"
         type: namespace
         rule: meduza.io
         enable: true
-      - id: 6653b963
-        name: "Namespace: megapeer.ru"
+      - name: "Namespace: megapeer.ru"
         type: namespace
         rule: megapeer.ru
         enable: true
-      - id: a5e2ba8c
-        name: "Namespace: megapeer.vip"
+      - name: "Namespace: megapeer.vip"
         type: namespace
         rule: megapeer.vip
         enable: true
-      - id: ef30f51b
-        name: "Namespace: merezha.co"
+      - name: "Namespace: merezha.co"
         type: namespace
         rule: merezha.co
         enable: true
-      - id: 84dc3b06
-        name: "Namespace: meta.com"
+      - name: "Namespace: meta.com"
         type: namespace
         rule: meta.com
         enable: true
-      - id: af0a6910
-        name: "Namespace: metacritic.com"
+      - name: "Namespace: metacritic.com"
         type: namespace
         rule: metacritic.com
         enable: true
-      - id: 813dfd82
-        name: "Namespace: metal-archives.com"
+      - name: "Namespace: metal-archives.com"
         type: namespace
         rule: metal-archives.com
         enable: true
-      - id: 7ae9f4a9
-        name: "Namespace: metla.press"
+      - name: "Namespace: metla.press"
         type: namespace
         rule: metla.press
         enable: true
-      - id: 3ba78cc0
-        name: "Namespace: middlewareinventory.com"
+      - name: "Namespace: middlewareinventory.com"
         type: namespace
         rule: middlewareinventory.com
         enable: true
-      - id: 4bdd8027
-        name: "Namespace: mignews.com"
+      - name: "Namespace: mignews.com"
         type: namespace
         rule: mignews.com
         enable: true
-      - id: a3a405cb
-        name: "Namespace: mixcloud.com"
+      - name: "Namespace: mixcloud.com"
         type: namespace
         rule: mixcloud.com
         enable: true
-      - id: 59bd8049
-        name: "Namespace: mongodb.com"
+      - name: "Namespace: mongodb.com"
         type: namespace
         rule: mongodb.com
         enable: true
-      - id: c6a3b55f
-        name: "Namespace: monoprice.com"
+      - name: "Namespace: monoprice.com"
         type: namespace
         rule: monoprice.com
         enable: true
-      - id: b1ffdae7
-        name: "Namespace: more.fm"
+      - name: "Namespace: more.fm"
         type: namespace
         rule: more.fm
         enable: true
-      - id: af0f68d3
-        name: "Namespace: moscowtimes.ru"
+      - name: "Namespace: moscowtimes.ru"
         type: namespace
         rule: moscowtimes.ru
         enable: true
-      - id: a0d642f2
-        name: "Namespace: mouser.fi"
+      - name: "Namespace: mouser.fi"
         type: namespace
         rule: mouser.fi
         enable: true
-      - id: acf7b6d1
-        name: "Namespace: mssg.me"
+      - name: "Namespace: mssg.me"
         type: namespace
         rule: mssg.me
         enable: true
-      - id: 4cb358e9
-        name: "Namespace: mullvad.net"
+      - name: "Namespace: mullvad.net"
         type: namespace
         rule: mullvad.net
         enable: true
-      - id: f8adfc80
-        name: "Namespace: multporn.net"
+      - name: "Namespace: multporn.net"
         type: namespace
         rule: multporn.net
         enable: true
-      - id: 0fe6e0f5
-        name: "Namespace: muscdn.com"
+      - name: "Namespace: muscdn.com"
         type: namespace
         rule: muscdn.com
         enable: true
-      - id: bae92bab
-        name: "Namespace: musical.ly"
+      - name: "Namespace: musical.ly"
         type: namespace
         rule: musical.ly
         enable: true
-      - id: 39c7e121
-        name: "Namespace: musixmatch.com"
+      - name: "Namespace: musixmatch.com"
         type: namespace
         rule: musixmatch.com
         enable: true
-      - id: b72c042a
-        name: "Namespace: mydoramy.club"
+      - name: "Namespace: mydoramy.club"
         type: namespace
         rule: mydoramy.club
         enable: true
-      - id: dfbbdd20
-        name: "Namespace: myheritage.com"
+      - name: "Namespace: myheritage.com"
         type: namespace
         rule: myheritage.com
         enable: true
-      - id: 062f4d7e
-        name: "Namespace: myjetbrains.com"
+      - name: "Namespace: myjetbrains.com"
         type: namespace
         rule: myjetbrains.com
         enable: true
-      - id: 08b0d105
-        name: "Namespace: navalny.com"
+      - name: "Namespace: navalny.com"
         type: namespace
         rule: navalny.com
         enable: true
-      - id: c271cecf
-        name: "Namespace: nba.com"
+      - name: "Namespace: nba.com"
         type: namespace
         rule: nba.com
         enable: true
-      - id: 68ee882f
-        name: "Namespace: neformat.com.ua"
+      - name: "Namespace: neformat.com.ua"
         type: namespace
         rule: neformat.com.ua
         enable: true
-      - id: 348e7bbc
-        name: "Namespace: neo4j.com"
+      - name: "Namespace: neo4j.com"
         type: namespace
         rule: neo4j.com
         enable: true
-      - id: 9c6af0c5
-        name: "Namespace: netflix.ca"
+      - name: "Namespace: netflix.ca"
         type: namespace
         rule: netflix.ca
         enable: true
-      - id: c41f5f25
-        name: "Namespace: netflix.com"
+      - name: "Namespace: netflix.com"
         type: namespace
         rule: netflix.com
         enable: true
-      - id: 3de7b6dc
-        name: "Namespace: netflix.net"
+      - name: "Namespace: netflix.net"
         type: namespace
         rule: netflix.net
         enable: true
-      - id: adfa74ef
-        name: "Namespace: netflixinvestor.com"
+      - name: "Namespace: netflixinvestor.com"
         type: namespace
         rule: netflixinvestor.com
         enable: true
-      - id: 729fde44
-        name: "Namespace: netflixtechblog.com"
+      - name: "Namespace: netflixtechblog.com"
         type: namespace
         rule: netflixtechblog.com
         enable: true
-      - id: 9dff8d81
-        name: "Namespace: netlify.com"
+      - name: "Namespace: netlify.com"
         type: namespace
         rule: netlify.com
         enable: true
-      - id: 65647bd0
-        name: "Namespace: networksolutions.com"
+      - name: "Namespace: networksolutions.com"
         type: namespace
         rule: networksolutions.com
         enable: true
-      - id: 8a271746
-        name: "Namespace: newark.com"
+      - name: "Namespace: newark.com"
         type: namespace
         rule: newark.com
         enable: true
-      - id: a817849c
-        name: "Namespace: news.google.com"
+      - name: "Namespace: news.google.com"
         type: namespace
         rule: news.google.com
         enable: true
-      - id: 100d24e2
-        name: "Namespace: newsroom.porsche.com"
+      - name: "Namespace: newsroom.porsche.com"
         type: namespace
         rule: newsroom.porsche.com
         enable: true
-      - id: 78d39453
-        name: "Namespace: newsru.co.il"
+      - name: "Namespace: newsru.co.il"
         type: namespace
         rule: newsru.co.il
         enable: true
-      - id: 5c76eb2b
-        name: "Namespace: newsru.com"
+      - name: "Namespace: newsru.com"
         type: namespace
         rule: newsru.com
         enable: true
-      - id: 7dfd0054
-        name: "Namespace: newtimes.ru"
+      - name: "Namespace: newtimes.ru"
         type: namespace
         rule: newtimes.ru
         enable: true
-      - id: 1e9b06b9
-        name: "Namespace: nfl.com"
+      - name: "Namespace: nfl.com"
         type: namespace
         rule: nfl.com
         enable: true
-      - id: 63f51ba8
-        name: "Namespace: nflxext.com"
+      - name: "Namespace: nflxext.com"
         type: namespace
         rule: nflxext.com
         enable: true
-      - id: 83995ddd
-        name: "Namespace: nflximg.com"
+      - name: "Namespace: nflximg.com"
         type: namespace
         rule: nflximg.com
         enable: true
-      - id: cdcea23d
-        name: "Namespace: nflximg.net"
+      - name: "Namespace: nflximg.net"
         type: namespace
         rule: nflximg.net
         enable: true
-      - id: d30be841
-        name: "Namespace: nflxsearch.net"
+      - name: "Namespace: nflxsearch.net"
         type: namespace
         rule: nflxsearch.net
         enable: true
-      - id: 14de4e1a
-        name: "Namespace: nflxso.net"
+      - name: "Namespace: nflxso.net"
         type: namespace
         rule: nflxso.net
         enable: true
-      - id: 9c983d67
-        name: "Namespace: nflxvideo.net"
+      - name: "Namespace: nflxvideo.net"
         type: namespace
         rule: nflxvideo.net
         enable: true
-      - id: f09518df
-        name: "Namespace: ngrok.com"
+      - name: "Namespace: ngrok.com"
         type: namespace
         rule: ngrok.com
         enable: true
-      - id: 6f013b0f
-        name: "Namespace: nhentai.com"
+      - name: "Namespace: nhentai.com"
         type: namespace
         rule: nhentai.com
         enable: true
-      - id: 76f81c2a
-        name: "Namespace: nhl.com"
+      - name: "Namespace: nhl.com"
         type: namespace
         rule: nhl.com
         enable: true
-      - id: fb49084f
-        name: "Namespace: nih.gov"
+      - name: "Namespace: nih.gov"
         type: namespace
         rule: nih.gov
         enable: true
-      - id: 7643ba5f
-        name: "Namespace: nike.com"
+      - name: "Namespace: nike.com"
         type: namespace
         rule: nike.com
         enable: true
-      - id: a0492182
-        name: "Namespace: nippon.com"
+      - name: "Namespace: nippon.com"
         type: namespace
         rule: nippon.com
         enable: true
-      - id: eafc9375
-        name: "Namespace: nitropdf.com"
+      - name: "Namespace: nitropdf.com"
         type: namespace
         rule: nitropdf.com
         enable: true
-      - id: fbbcc820
-        name: "Namespace: nnmclub.to"
+      - name: "Namespace: nnmclub.to"
         type: namespace
         rule: nnmclub.to
         enable: true
-      - id: ea0ba3ae
-        name: "Namespace: nnmstatic.win"
+      - name: "Namespace: nnmstatic.win"
         type: namespace
         rule: nnmstatic.win
         enable: true
-      - id: 367c470c
-        name: "Namespace: nordaccount.com"
+      - name: "Namespace: nordaccount.com"
         type: namespace
         rule: nordaccount.com
         enable: true
-      - id: 9687aaef
-        name: "Namespace: nordcdn.com"
+      - name: "Namespace: nordcdn.com"
         type: namespace
         rule: nordcdn.com
         enable: true
-      - id: a18108db
-        name: "Namespace: nordvpn.com"
+      - name: "Namespace: nordvpn.com"
         type: namespace
         rule: nordvpn.com
         enable: true
-      - id: e6c1b4fe
-        name: "Namespace: notepad-plus-plus.org"
+      - name: "Namespace: notepad-plus-plus.org"
         type: namespace
         rule: notepad-plus-plus.org
         enable: true
-      - id: 632974b2
-        name: "Namespace: notion-static.com"
+      - name: "Namespace: notion-static.com"
         type: namespace
         rule: notion-static.com
         enable: true
-      - id: 32cd6b8a
-        name: "Namespace: notion.com"
+      - name: "Namespace: notion.com"
         type: namespace
         rule: notion.com
         enable: true
-      - id: edc36927
-        name: "Namespace: notion.new"
+      - name: "Namespace: notion.new"
         type: namespace
         rule: notion.new
         enable: true
-      - id: 72a50e41
-        name: "Namespace: notion.site"
+      - name: "Namespace: notion.site"
         type: namespace
         rule: notion.site
         enable: true
-      - id: f3a512cb
-        name: "Namespace: notion.so"
+      - name: "Namespace: notion.so"
         type: namespace
         rule: notion.so
         enable: true
-      - id: 51abbca7
-        name: "Namespace: novaline.fm"
+      - name: "Namespace: novaline.fm"
         type: namespace
         rule: novaline.fm
         enable: true
-      - id: bdfea8ec
-        name: "Namespace: novaya.no"
+      - name: "Namespace: novaya.no"
         type: namespace
         rule: novaya.no
         enable: true
-      - id: 646f3b9c
-        name: "Namespace: novayagazeta.eu"
+      - name: "Namespace: novayagazeta.eu"
         type: namespace
         rule: novayagazeta.eu
         enable: true
-      - id: 61452f3e
-        name: "Namespace: novayagazeta.ru"
+      - name: "Namespace: novayagazeta.ru"
         type: namespace
         rule: novayagazeta.ru
         enable: true
-      - id: ac851228
-        name: "Namespace: ntc.party"
+      - name: "Namespace: ntc.party"
         type: namespace
         rule: ntc.party
         enable: true
-      - id: bcd1628a
-        name: "Namespace: ntp.msn.com"
+      - name: "Namespace: ntp.msn.com"
         type: namespace
         rule: ntp.msn.com
         enable: true
-      - id: 8ff16fc3
-        name: "Namespace: nxp.com"
+      - name: "Namespace: nxp.com"
         type: namespace
         rule: nxp.com
         enable: true
-      - id: 8128DAC5
-        name: "Namespace: oaistatic.com"
+      - name: "Namespace: oaistatic.com"
         type: namespace
         rule: oaistatic.com
         enable: true
-      - id: 4f0c9e60
-        name: "Namespace: oaiusercontent.com"
+      - name: "Namespace: oaiusercontent.com"
         type: namespace
         rule: oaiusercontent.com
         enable: true
-      - id: 088f36cc
-        name: "Namespace: ocstore.com"
+      - name: "Namespace: ocstore.com"
         type: namespace
         rule: ocstore.com
         enable: true
-      - id: f3c01aa3
-        name: "Namespace: oculus.com"
+      - name: "Namespace: oculus.com"
         type: namespace
         rule: oculus.com
         enable: true
-      - id: ea7b1375
-        name: "Namespace: ohmyswift.ru"
+      - name: "Namespace: ohmyswift.ru"
         type: namespace
         rule: ohmyswift.ru
         enable: true
-      - id: 5840bf0b
-        name: "Namespace: oi.legal"
+      - name: "Namespace: oi.legal"
         type: namespace
         rule: oi.legal
         enable: true
-      - id: 862ec0e3
-        name: "Namespace: okx.com"
+      - name: "Namespace: okx.com"
         type: namespace
         rule: okx.com
         enable: true
-      - id: 07a283ff
-        name: "Namespace: olx.ua"
+      - name: "Namespace: olx.ua"
         type: namespace
         rule: olx.ua
         enable: true
-      - id: f06994e9
-        name: "Namespace: omnissa.com"
+      - name: "Namespace: omnissa.com"
         type: namespace
         rule: omnissa.com
         enable: true
-      - id: 8807c873
-        name: "Namespace: omv-extras.org"
+      - name: "Namespace: omv-extras.org"
         type: namespace
         rule: omv-extras.org
         enable: true
-      - id: cc1f8a19
-        name: "Namespace: onfastspring.com"
+      - name: "Namespace: onfastspring.com"
         type: namespace
         rule: onfastspring.com
         enable: true
-      - id: 1dfd8f9f
-        name: "Namespace: onlinesim.io"
+      - name: "Namespace: onlinesim.io"
         type: namespace
         rule: onlinesim.io
         enable: true
-      - id: afb9883a
-        name: "Namespace: onshape.com"
+      - name: "Namespace: onshape.com"
         type: namespace
         rule: onshape.com
         enable: true
-      - id: bae33873
-        name: "Namespace: openai.com"
+      - name: "Namespace: openai.com"
         type: namespace
         rule: openai.com
         enable: true
-      - id: d85abaf5
-        name: "Namespace: openmedia.io"
+      - name: "Namespace: openmedia.io"
         type: namespace
         rule: openmedia.io
         enable: true
-      - id: fa5ed43a
-        name: "Namespace: opensanctions.org"
+      - name: "Namespace: opensanctions.org"
         type: namespace
         rule: opensanctions.org
         enable: true
-      - id: 7b73f03e
-        name: "Namespace: opensea.io"
+      - name: "Namespace: opensea.io"
         type: namespace
         rule: opensea.io
         enable: true
-      - id: 5dad22f7
-        name: "Namespace: opposition-news.com"
+      - name: "Namespace: opposition-news.com"
         type: namespace
         rule: opposition-news.com
         enable: true
-      - id: 05a9c0f5
-        name: "Namespace: oracle.com"
+      - name: "Namespace: oracle.com"
         type: namespace
         rule: oracle.com
         enable: true
-      - id: 40e9c648
-        name: "Namespace: ovd.info"
+      - name: "Namespace: ovd.info"
         type: namespace
         rule: ovd.info
         enable: true
-      - id: b4874099
-        name: "Namespace: ovd.legal"
+      - name: "Namespace: ovd.legal"
         type: namespace
         rule: ovd.legal
         enable: true
-      - id: 3b91ae6f
-        name: "Namespace: ovd.news"
+      - name: "Namespace: ovd.news"
         type: namespace
         rule: ovd.news
         enable: true
-      - id: b61febcb
-        name: "Namespace: ovdinfo.org"
+      - name: "Namespace: ovdinfo.org"
         type: namespace
         rule: ovdinfo.org
         enable: true
-      - id: 452030af
-        name: "Namespace: ozodi.org"
+      - name: "Namespace: ozodi.org"
         type: namespace
         rule: ozodi.org
         enable: true
-      - id: 5725144e
-        name: "Namespace: pages.dev"
+      - name: "Namespace: pages.dev"
         type: namespace
         rule: pages.dev
         enable: true
-      - id: 0e9f4823
-        name: "Namespace: pap.pl"
+      - name: "Namespace: pap.pl"
         type: namespace
         rule: pap.pl
         enable: true
-      - id: 8a60eb40
-        name: "Namespace: paperpaper.io"
+      - name: "Namespace: paperpaper.io"
         type: namespace
         rule: paperpaper.io
         enable: true
-      - id: 2cdbbf35
-        name: "Namespace: paperpaper.ru"
+      - name: "Namespace: paperpaper.ru"
         type: namespace
         rule: paperpaper.ru
         enable: true
-      - id: 0b8add60
-        name: "Namespace: patreon.com"
+      - name: "Namespace: patreon.com"
         type: namespace
         rule: patreon.com
         enable: true
-      - id: c8e017c4
-        name: "Namespace: patriot.dp.ua"
+      - name: "Namespace: patriot.dp.ua"
         type: namespace
         rule: patriot.dp.ua
         enable: true
-      - id: dab274d3
-        name: "Namespace: pcgamesn.com"
+      - name: "Namespace: pcgamesn.com"
         type: namespace
         rule: pcgamesn.com
         enable: true
-      - id: 8d2ca615
-        name: "Namespace: pcmag.com"
+      - name: "Namespace: pcmag.com"
         type: namespace
         rule: pcmag.com
         enable: true
-      - id: a34e4342
-        name: "Namespace: periscope.tv"
+      - name: "Namespace: periscope.tv"
         type: namespace
         rule: periscope.tv
         enable: true
-      - id: 7f808e36
-        name: "Namespace: pexels.com"
+      - name: "Namespace: pexels.com"
         type: namespace
         rule: pexels.com
         enable: true
-      - id: e50cf2c2
-        name: "Namespace: phncdn.com"
+      - name: "Namespace: phncdn.com"
         type: namespace
         rule: phncdn.com
         enable: true
-      - id: b1af708f
-        name: "Namespace: phncdn.com.sds.rncdn7.com"
+      - name: "Namespace: phncdn.com.sds.rncdn7.com"
         type: namespace
         rule: phncdn.com.sds.rncdn7.com
         enable: true
-      - id: d84f2dfa
-        name: "Namespace: pimpletv.ru"
+      - name: "Namespace: pimpletv.ru"
         type: namespace
         rule: pimpletv.ru
         enable: true
-      - id: 6a9c01bb
-        name: "Namespace: pingdom.com"
+      - name: "Namespace: pingdom.com"
         type: namespace
         rule: pingdom.com
         enable: true
-      - id: c31d54c0
-        name: "Namespace: piratbit.top"
+      - name: "Namespace: piratbit.top"
         type: namespace
         rule: piratbit.top
         enable: true
-      - id: 852f2637
-        name: "Namespace: pkgs.tailscale.com"
+      - name: "Namespace: pkgs.tailscale.com"
         type: namespace
         rule: pkgs.tailscale.com
         enable: true
-      - id: b56a1121
-        name: "Namespace: platform.activestate.com"
+      - name: "Namespace: platform.activestate.com"
         type: namespace
         rule: platform.activestate.com
         enable: true
-      - id: 9c967b65
-        name: "Namespace: playboy.com"
+      - name: "Namespace: playboy.com"
         type: namespace
         rule: playboy.com
         enable: true
-      - id: 32269c21
-        name: "Namespace: plugshare.com"
+      - name: "Namespace: plugshare.com"
         type: namespace
         rule: plugshare.com
         enable: true
-      - id: 19f493bf
-        name: "Namespace: polit.ru"
+      - name: "Namespace: polit.ru"
         type: namespace
         rule: polit.ru
         enable: true
-      - id: e9fb1493
-        name: "Namespace: politico.eu"
+      - name: "Namespace: politico.eu"
         type: namespace
         rule: politico.eu
         enable: true
-      - id: 4c68aadf
-        name: "Namespace: politiken.dk"
+      - name: "Namespace: politiken.dk"
         type: namespace
         rule: politiken.dk
         enable: true
-      - id: c3e391d7
-        name: "Namespace: polymarket.com"
+      - name: "Namespace: polymarket.com"
         type: namespace
         rule: polymarket.com
         enable: true
-      - id: 405f56b7
-        name: "Namespace: pornhub.com"
+      - name: "Namespace: pornhub.com"
         type: namespace
         rule: pornhub.com
         enable: true
-      - id: cdd64bfe
-        name: "Namespace: pornhub.org"
+      - name: "Namespace: pornhub.org"
         type: namespace
         rule: pornhub.org
         enable: true
-      - id: 883c82d7
-        name: "Namespace: pornolab.net"
+      - name: "Namespace: pornolab.net"
         type: namespace
         rule: pornolab.net
         enable: true
-      - id: 7b003d9f
-        name: "Namespace: portal.lviv.ua"
+      - name: "Namespace: portal.lviv.ua"
         type: namespace
         rule: portal.lviv.ua
         enable: true
-      - id: fbf5226b
-        name: "Namespace: posle.media"
+      - name: "Namespace: posle.media"
         type: namespace
         rule: posle.media
         enable: true
-      - id: 69e4f129
-        name: "Namespace: postimees.ee"
+      - name: "Namespace: postimees.ee"
         type: namespace
         rule: postimees.ee
         enable: true
-      - id: 60e2e15f
-        name: "Namespace: pravda.com"
+      - name: "Namespace: pravda.com"
         type: namespace
         rule: pravda.com
         enable: true
-      - id: 25ccae98
-        name: "Namespace: pravda.com.ua"
+      - name: "Namespace: pravda.com.ua"
         type: namespace
         rule: pravda.com.ua
         enable: true
-      - id: ec3c7fd8
-        name: "Namespace: premierleague.com"
+      - name: "Namespace: premierleague.com"
         type: namespace
         rule: premierleague.com
         enable: true
-      - id: edde5331
-        name: "Namespace: primevideo.com"
+      - name: "Namespace: primevideo.com"
         type: namespace
         rule: primevideo.com
         enable: true
-      - id: 01ebb5c0
-        name: "Namespace: privatekeys.pw"
+      - name: "Namespace: privatekeys.pw"
         type: namespace
         rule: privatekeys.pw
         enable: true
-      - id: 3c0773fb
-        name: "Namespace: prnt.sc"
+      - name: "Namespace: prnt.sc"
         type: namespace
         rule: prnt.sc
         enable: true
-      - id: ecc8dc1e
-        name: "Namespace: proactivebackend-pa.googleapis.com"
+      - name: "Namespace: proactivebackend-pa.googleapis.com"
         type: namespace
         rule: proactivebackend-pa.googleapis.com
         enable: true
-      - id: aa3312c8
-        name: "Namespace: proekt.media"
+      - name: "Namespace: proekt.media"
         type: namespace
         rule: proekt.media
         enable: true
-      - id: 53a842b6
-        name: "Namespace: prosleduetmedia.com"
+      - name: "Namespace: prosleduetmedia.com"
         type: namespace
         rule: prosleduetmedia.com
         enable: true
-      - id: e7702c1d
-        name: "Namespace: prostovpn.org"
+      - name: "Namespace: prostovpn.org"
         type: namespace
         rule: prostovpn.org
         enable: true
-      - id: 2cbde158
-        name: "Namespace: proton.me"
+      - name: "Namespace: proton.me"
         type: namespace
         rule: proton.me
         enable: true
-      - id: 31e0d072
-        name: "Namespace: protonvpn.com"
+      - name: "Namespace: protonvpn.com"
         type: namespace
         rule: protonvpn.com
         enable: true
-      - id: 0c069641
-        name: "Namespace: provereno.media"
+      - name: "Namespace: provereno.media"
         type: namespace
         rule: provereno.media
         enable: true
-      - id: a291a3dc
-        name: "Namespace: prowlarr.com"
+      - name: "Namespace: prowlarr.com"
         type: namespace
         rule: prowlarr.com
         enable: true
-      - id: 8d37f36a
-        name: "Namespace: pscp.tv"
+      - name: "Namespace: pscp.tv"
         type: namespace
         rule: pscp.tv
         enable: true
-      - id: 922246b4
-        name: "Namespace: psiphon.ca"
+      - name: "Namespace: psiphon.ca"
         type: namespace
         rule: psiphon.ca
         enable: true
-      - id: f5975f38
-        name: "Namespace: public.parsec.app"
+      - name: "Namespace: public.parsec.app"
         type: namespace
         rule: public.parsec.app
         enable: true
-      - id: 4f0337ac
-        name: "Namespace: qt.io"
+      - name: "Namespace: qt.io"
         type: namespace
         rule: qt.io
         enable: true
-      - id: 1d186f06
-        name: "Namespace: quickconnect.to"
+      - name: "Namespace: quickconnect.to"
         type: namespace
         rule: quickconnect.to
         enable: true
-      - id: 1fedfe21
-        name: "Namespace: quora.com"
+      - name: "Namespace: quora.com"
         type: namespace
         rule: quora.com
         enable: true
-      - id: 75534931
-        name: "Namespace: quora.com.cdn.cloudflare.net"
+      - name: "Namespace: quora.com.cdn.cloudflare.net"
         type: namespace
         rule: quora.com.cdn.cloudflare.net
         enable: true
-      - id: 1250ba13
-        name: "Namespace: r4.err.ee"
+      - name: "Namespace: r4.err.ee"
         type: namespace
         rule: r4.err.ee
         enable: true
-      - id: 95b406ac
-        name: "Namespace: radiosakharov.org"
+      - name: "Namespace: radiosakharov.org"
         type: namespace
         rule: radiosakharov.org
         enable: true
-      - id: b64579a2
-        name: "Namespace: radiosvoboda.org"
+      - name: "Namespace: radiosvoboda.org"
         type: namespace
         rule: radiosvoboda.org
         enable: true
-      - id: f1287448
-        name: "Namespace: rbc.ua"
+      - name: "Namespace: rbc.ua"
         type: namespace
         rule: rbc.ua
         enable: true
-      - id: 30dac8a8
-        name: "Namespace: reactflow.dev"
+      - name: "Namespace: reactflow.dev"
         type: namespace
         rule: reactflow.dev
         enable: true
-      - id: e423be6b
-        name: "Namespace: realist.online"
+      - name: "Namespace: realist.online"
         type: namespace
         rule: realist.online
         enable: true
-      - id: e5af483d
-        name: "Namespace: recraft.ai"
+      - name: "Namespace: recraft.ai"
         type: namespace
         rule: recraft.ai
         enable: true
-      - id: 0cbcec18
-        name: "Namespace: reddxxx.com"
+      - name: "Namespace: reddxxx.com"
         type: namespace
         rule: reddxxx.com
         enable: true
-      - id: 9d1c5b6f
-        name: "Namespace: redgifs.com"
+      - name: "Namespace: redgifs.com"
         type: namespace
         rule: redgifs.com
         enable: true
-      - id: 386840b2
-        name: "Namespace: redis.io"
+      - name: "Namespace: redis.io"
         type: namespace
         rule: redis.io
         enable: true
-      - id: 90635cfc
-        name: "Namespace: redshieldvpn.com"
+      - name: "Namespace: redshieldvpn.com"
         type: namespace
         rule: redshieldvpn.com
         enable: true
-      - id: d7cb86bf
-        name: "Namespace: refactoring.guru"
+      - name: "Namespace: refactoring.guru"
         type: namespace
         rule: refactoring.guru
         enable: true
-      - id: e79872ee
-        name: "Namespace: remna.st"
+      - name: "Namespace: remna.st"
         type: namespace
         rule: remna.st
         enable: true
-      - id: 65efab44
-        name: "Namespace: remove.bg"
+      - name: "Namespace: remove.bg"
         type: namespace
         rule: remove.bg
         enable: true
-      - id: 0d4f10b5
-        name: "Namespace: render-state.to"
+      - name: "Namespace: render-state.to"
         type: namespace
         rule: render-state.to
         enable: true
-      - id: 0afa53c5
-        name: "Namespace: rentry.co"
+      - name: "Namespace: rentry.co"
         type: namespace
         rule: rentry.co
         enable: true
-      - id: 549fae43
-        name: "Namespace: rentry.org"
+      - name: "Namespace: rentry.org"
         type: namespace
         rule: rentry.org
         enable: true
-      - id: c077975d
-        name: "Namespace: republic.ru"
+      - name: "Namespace: republic.ru"
         type: namespace
         rule: republic.ru
         enable: true
-      - id: 9ca1746f
-        name: "Namespace: research.net"
+      - name: "Namespace: research.net"
         type: namespace
         rule: research.net
         enable: true
-      - id: 0a6da6cb
-        name: "Namespace: returnyoutubedislikeapi.com"
+      - name: "Namespace: returnyoutubedislikeapi.com"
         type: namespace
         rule: returnyoutubedislikeapi.com
         enable: true
-      - id: bfcbd033
-        name: "Namespace: reve.art"
+      - name: "Namespace: reve.art"
         type: namespace
         rule: reve.art
         enable: true
-      - id: 33024018
-        name: "Namespace: rezka-ua.in"
+      - name: "Namespace: rezka-ua.in"
         type: namespace
         rule: rezka-ua.in
         enable: true
-      - id: c9b5391c
-        name: "Namespace: rezka.ag"
+      - name: "Namespace: rezka.ag"
         type: namespace
         rule: rezka.ag
         enable: true
-      - id: 406d6d74
-        name: "Namespace: rezka.my"
+      - name: "Namespace: rezka.my"
         type: namespace
         rule: rezka.my
         enable: true
-      - id: 2955b85a
-        name: "Namespace: rezkify.com"
+      - name: "Namespace: rezkify.com"
         type: namespace
         rule: rezkify.com
         enable: true
-      - id: cadac703
-        name: "Namespace: rezonans.media"
+      - name: "Namespace: rezonans.media"
         type: namespace
         rule: rezonans.media
         enable: true
-      - id: c3aedb2c
-        name: "Namespace: rf.dobrochan.net"
+      - name: "Namespace: rf.dobrochan.net"
         type: namespace
         rule: rf.dobrochan.net
         enable: true
-      - id: 8eb7d00e
-        name: "Namespace: rferl.org"
+      - name: "Namespace: rferl.org"
         type: namespace
         rule: rferl.org
         enable: true
-      - id: d8b5e050
-        name: "Namespace: riperam.org"
+      - name: "Namespace: riperam.org"
         type: namespace
         rule: riperam.org
         enable: true
-      - id: e4bcea84
-        name: "Namespace: roar-review.com"
+      - name: "Namespace: roar-review.com"
         type: namespace
         rule: roar-review.com
         enable: true
-      - id: 3186036c
-        name: "Namespace: root-nation.com"
+      - name: "Namespace: root-nation.com"
         type: namespace
         rule: root-nation.com
         enable: true
-      - id: e8ff49f7
-        name: "Namespace: roskomsvoboda.org"
+      - name: "Namespace: roskomsvoboda.org"
         type: namespace
         rule: roskomsvoboda.org
         enable: true
-      - id: f312616e
-        name: "Namespace: rublacklist.net"
+      - name: "Namespace: rublacklist.net"
         type: namespace
         rule: rublacklist.net
         enable: true
-      - id: a4537550
-        name: "Namespace: rule34.art"
+      - name: "Namespace: rule34.art"
         type: namespace
         rule: rule34.art
         enable: true
-      - id: 1b427f5e
-        name: "Namespace: rule34.xxx"
+      - name: "Namespace: rule34.xxx"
         type: namespace
         rule: rule34.xxx
         enable: true
-      - id: 49a7f988
-        name: "Namespace: rus.delfi.ee"
+      - name: "Namespace: rus.delfi.ee"
         type: namespace
         rule: rus.delfi.ee
         enable: true
-      - id: b6c89c76
-        name: "Namespace: rus.jauns.lv"
+      - name: "Namespace: rus.jauns.lv"
         type: namespace
         rule: rus.jauns.lv
         enable: true
-      - id: e910568b
-        name: "Namespace: rutor.info"
+      - name: "Namespace: rutor.info"
         type: namespace
         rule: rutor.info
         enable: true
-      - id: afbbcd11
-        name: "Namespace: rutor.is"
+      - name: "Namespace: rutor.is"
         type: namespace
         rule: rutor.is
         enable: true
-      - id: f3acf2f7
-        name: "Namespace: rutor.org"
+      - name: "Namespace: rutor.org"
         type: namespace
         rule: rutor.org
         enable: true
-      - id: d65ba7d5
-        name: "Namespace: rutracker.cc"
+      - name: "Namespace: rutracker.cc"
         type: namespace
         rule: rutracker.cc
         enable: true
-      - id: b853cca4
-        name: "Namespace: rutracker.net"
+      - name: "Namespace: rutracker.net"
         type: namespace
         rule: rutracker.net
         enable: true
-      - id: 5e86d98b
-        name: "Namespace: rutracker.org"
+      - name: "Namespace: rutracker.org"
         type: namespace
         rule: rutracker.org
         enable: true
-      - id: e681e713
-        name: "Namespace: rutracker.wiki"
+      - name: "Namespace: rutracker.wiki"
         type: namespace
         rule: rutracker.wiki
         enable: true
-      - id: a76ac11f
-        name: "Namespace: sakhalin.info"
+      - name: "Namespace: sakhalin.info"
         type: namespace
         rule: sakhalin.info
         enable: true
-      - id: e9ffec54
-        name: "Namespace: sakharovfoundation.org"
+      - name: "Namespace: sakharovfoundation.org"
         type: namespace
         rule: sakharovfoundation.org
         enable: true
-      - id: 579c2548
-        name: "Namespace: salesforce-experience.com"
+      - name: "Namespace: salesforce-experience.com"
         type: namespace
         rule: salesforce-experience.com
         enable: true
-      - id: 3a2485d3
-        name: "Namespace: salesforce-hub.com"
+      - name: "Namespace: salesforce-hub.com"
         type: namespace
         rule: salesforce-hub.com
         enable: true
-      - id: 6b3b600b
-        name: "Namespace: salesforce-scrt.com"
+      - name: "Namespace: salesforce-scrt.com"
         type: namespace
         rule: salesforce-scrt.com
         enable: true
-      - id: 4b7a9320
-        name: "Namespace: salesforce-setup.com"
+      - name: "Namespace: salesforce-setup.com"
         type: namespace
         rule: salesforce-setup.com
         enable: true
-      - id: 6a51e873
-        name: "Namespace: salesforce-sites.com"
+      - name: "Namespace: salesforce-sites.com"
         type: namespace
         rule: salesforce-sites.com
         enable: true
-      - id: 26326340
-        name: "Namespace: salesforce.com"
+      - name: "Namespace: salesforce.com"
         type: namespace
         rule: salesforce.com
         enable: true
-      - id: 7535560a
-        name: "Namespace: salesforceiq.com"
+      - name: "Namespace: salesforceiq.com"
         type: namespace
         rule: salesforceiq.com
         enable: true
-      - id: 061f2f0f
-        name: "Namespace: salesforceliveagent.com"
+      - name: "Namespace: salesforceliveagent.com"
         type: namespace
         rule: salesforceliveagent.com
         enable: true
-      - id: 2f83c83d
-        name: "Namespace: sap.com"
+      - name: "Namespace: sap.com"
         type: namespace
         rule: sap.com
         enable: true
-      - id: fd358cc0
-        name: "Namespace: saverudata.net"
+      - name: "Namespace: saverudata.net"
         type: namespace
         rule: saverudata.net
         enable: true
-      - id: 678b99a9
-        name: "Namespace: sci-hub.se"
+      - name: "Namespace: sci-hub.se"
         type: namespace
         rule: sci-hub.se
         enable: true
-      - id: c8e744db
-        name: "Namespace: sci-hub.st"
+      - name: "Namespace: sci-hub.st"
         type: namespace
         rule: sci-hub.st
         enable: true
-      - id: 3bcbc6fa
-        name: "Namespace: sdxcentral.com"
+      - name: "Namespace: sdxcentral.com"
         type: namespace
         rule: sdxcentral.com
         enable: true
-      - id: 485e37d4
-        name: "Namespace: searchfloor.org"
+      - name: "Namespace: searchfloor.org"
         type: namespace
         rule: searchfloor.org
         enable: true
-      - id: e8b3cbaf
-        name: "Namespace: seasonvar.ru"
+      - name: "Namespace: seasonvar.ru"
         type: namespace
         rule: seasonvar.ru
         enable: true
-      - id: 11aa07f5
-        name: "Namespace: selezen.org"
+      - name: "Namespace: selezen.org"
         type: namespace
         rule: selezen.org
         enable: true
-      - id: d0ffef3e
-        name: "Namespace: semnasem.org"
+      - name: "Namespace: semnasem.org"
         type: namespace
         rule: semnasem.org
         enable: true
-      - id: 2ddd9a4f
-        name: "Namespace: sentry.io"
+      - name: "Namespace: sentry.io"
         type: namespace
         rule: sentry.io
         enable: true
-      - id: ab4314ae
-        name: "Namespace: sephora.com"
+      - name: "Namespace: sephora.com"
         type: namespace
         rule: sephora.com
         enable: true
-      - id: d882e01c
-        name: "Namespace: servarr.com"
+      - name: "Namespace: servarr.com"
         type: namespace
         rule: servarr.com
         enable: true
-      - id: 2afde79a
-        name: "Namespace: severreal.org"
+      - name: "Namespace: severreal.org"
         type: namespace
         rule: severreal.org
         enable: true
-      - id: 81d46a2e
-        name: "Namespace: sfdcopens.com"
+      - name: "Namespace: sfdcopens.com"
         type: namespace
         rule: sfdcopens.com
         enable: true
-      - id: 334c41fe
-        name: "Namespace: shikimori.me"
+      - name: "Namespace: shikimori.me"
         type: namespace
         rule: shikimori.me
         enable: true
-      - id: cd6cbbfb
-        name: "Namespace: shinyhardware.co.uk"
+      - name: "Namespace: shinyhardware.co.uk"
         type: namespace
         rule: shinyhardware.co.uk
         enable: true
-      - id: d08cd3d2
-        name: "Namespace: shiza-project.com"
+      - name: "Namespace: shiza-project.com"
         type: namespace
         rule: shiza-project.com
         enable: true
-      - id: 93219a60
-        name: "Namespace: shop.gameloft.com"
+      - name: "Namespace: shop.gameloft.com"
         type: namespace
         rule: shop.gameloft.com
         enable: true
-      - id: bcf5e616
-        name: "Namespace: showip.net"
+      - name: "Namespace: showip.net"
         type: namespace
         rule: showip.net
         enable: true
-      - id: 88595645
-        name: "Namespace: sibreal.org"
+      - name: "Namespace: sibreal.org"
         type: namespace
         rule: sibreal.org
         enable: true
-      - id: eae35195
-        name: "Namespace: signal.org"
+      - name: "Namespace: signal.org"
         type: namespace
         rule: signal.org
         enable: true
-      - id: b9d213bf
-        name: "Namespace: simplex.chat"
+      - name: "Namespace: simplex.chat"
         type: namespace
         rule: simplex.chat
         enable: true
-      - id: 680f73e1
-        name: "Namespace: simplex.im"
+      - name: "Namespace: simplex.im"
         type: namespace
         rule: simplex.im
         enable: true
-      - id: 45234728
-        name: "Namespace: simplix.info"
+      - name: "Namespace: simplix.info"
         type: namespace
         rule: simplix.info
         enable: true
-      - id: 0fda5043
-        name: "Namespace: singlekey-id.com"
+      - name: "Namespace: singlekey-id.com"
         type: namespace
         rule: singlekey-id.com
         enable: true
-      - id: f2d32cdd
-        name: "Namespace: site.com"
+      - name: "Namespace: site.com"
         type: namespace
         rule: site.com
         enable: true
-      - id: a44fb986
-        name: "Namespace: skat.media"
+      - name: "Namespace: skat.media"
         type: namespace
         rule: skat.media
         enable: true
-      - id: 37512aa4
-        name: "Namespace: sketchup.com"
+      - name: "Namespace: sketchup.com"
         type: namespace
         rule: sketchup.com
         enable: true
-      - id: a8d6f3b5
-        name: "Namespace: skiff.com"
+      - name: "Namespace: skiff.com"
         type: namespace
         rule: skiff.com
         enable: true
-      - id: 9d6d1c10
-        name: "Namespace: skladchik.com"
+      - name: "Namespace: skladchik.com"
         type: namespace
         rule: skladchik.com
         enable: true
-      - id: e9f422a5
-        name: "Namespace: sklatchiki.ru"
+      - name: "Namespace: sklatchiki.ru"
         type: namespace
         rule: sklatchiki.ru
         enable: true
-      - id: ba333692
-        name: "Namespace: sky.com"
+      - name: "Namespace: sky.com"
         type: namespace
         rule: sky.com
         enable: true
-      - id: 4133c464
-        name: "Namespace: skycdp.com"
+      - name: "Namespace: skycdp.com"
         type: namespace
         rule: skycdp.com
         enable: true
-      - id: 978bcbef
-        name: "Namespace: slashlib.me"
+      - name: "Namespace: slashlib.me"
         type: namespace
         rule: slashlib.me
         enable: true
-      - id: 3cbad7c2
-        name: "Namespace: slavicsac.com"
+      - name: "Namespace: slavicsac.com"
         type: namespace
         rule: slavicsac.com
         enable: true
-      - id: 41088800
-        name: "Namespace: smartbear.co"
+      - name: "Namespace: smartbear.co"
         type: namespace
         rule: smartbear.co
         enable: true
-      - id: 8a3bcadb
-        name: "Namespace: smartbear.com"
+      - name: "Namespace: smartbear.com"
         type: namespace
         rule: smartbear.com
         enable: true
-      - id: 7cfb84f9
-        name: "Namespace: smartdeploy.com"
+      - name: "Namespace: smartdeploy.com"
         type: namespace
         rule: smartdeploy.com
         enable: true
-      - id: 3f6e41e5
-        name: "Namespace: snort.org"
+      - name: "Namespace: snort.org"
         type: namespace
         rule: snort.org
         enable: true
-      - id: 77e2274e
-        name: "Namespace: snyk.io"
+      - name: "Namespace: snyk.io"
         type: namespace
         rule: snyk.io
         enable: true
-      - id: 8c5ae683
-        name: "Namespace: sobesednik.com"
+      - name: "Namespace: sobesednik.com"
         type: namespace
         rule: sobesednik.com
         enable: true
-      - id: 7913fe7d
-        name: "Namespace: solarwinds.com"
+      - name: "Namespace: solarwinds.com"
         type: namespace
         rule: solarwinds.com
         enable: true
-      - id: 034ded84
-        name: "Namespace: sora.com"
+      - name: "Namespace: sora.com"
         type: namespace
         rule: sora.com
         enable: true
-      - id: 948bc9cf
-        name: "Namespace: soundcloud.com"
+      - name: "Namespace: soundcloud.com"
         type: namespace
         rule: soundcloud.com
         enable: true
-      - id: 530a5628
-        name: "Namespace: sovetromantica.com"
+      - name: "Namespace: sovetromantica.com"
         type: namespace
         rule: sovetromantica.com
         enable: true
-      - id: a142a896
-        name: "Namespace: spacelift.io"
+      - name: "Namespace: spacelift.io"
         type: namespace
         rule: spacelift.io
         enable: true
-      - id: dfcda7d2
-        name: "Namespace: spektr.press"
+      - name: "Namespace: spektr.press"
         type: namespace
         rule: spektr.press
         enable: true
-      - id: 8cfa9a9e
-        name: "Namespace: spiceworks.com"
+      - name: "Namespace: spiceworks.com"
         type: namespace
         rule: spiceworks.com
         enable: true
-      - id: c5f4ad26
-        name: "Namespace: spitfireaudio.com"
+      - name: "Namespace: spitfireaudio.com"
         type: namespace
         rule: spitfireaudio.com
         enable: true
-      - id: 8181420e
-        name: "Namespace: spotify.com"
+      - name: "Namespace: spotify.com"
         type: namespace
         rule: spotify.com
         enable: true
-      - id: 10616a77
-        name: "Namespace: spreadthesign.com"
+      - name: "Namespace: spreadthesign.com"
         type: namespace
         rule: spreadthesign.com
         enable: true
-      - id: ceb7c009
-        name: "Namespace: sputnikipogrom.com"
+      - name: "Namespace: sputnikipogrom.com"
         type: namespace
         rule: sputnikipogrom.com
         enable: true
-      - id: f65e8e00
-        name: "Namespace: squadbustersgame.com"
+      - name: "Namespace: squadbustersgame.com"
         type: namespace
         rule: squadbustersgame.com
         enable: true
-      - id: d0d38651
-        name: "Namespace: squareup.com"
+      - name: "Namespace: squareup.com"
         type: namespace
         rule: squareup.com
         enable: true
-      - id: cc2bc4db
-        name: "Namespace: squietpc.com"
+      - name: "Namespace: squietpc.com"
         type: namespace
         rule: squietpc.com
         enable: true
-      - id: 35039391
-        name: "Namespace: startpage.com"
+      - name: "Namespace: startpage.com"
         type: namespace
         rule: startpage.com
         enable: true
-      - id: 3a549db8
-        name: "Namespace: static.lostfilm.top"
+      - name: "Namespace: static.lostfilm.top"
         type: namespace
         rule: static.lostfilm.top
         enable: true
-      - id: 2c3fef1e
-        name: "Namespace: statology.org"
+      - name: "Namespace: statology.org"
         type: namespace
         rule: statology.org
         enable: true
-      - id: 42e7624c
-        name: "Namespace: steamstat.info"
+      - name: "Namespace: steamstat.info"
         type: namespace
         rule: steamstat.info
         enable: true
-      - id: 1b05e96f
-        name: "Namespace: strana.news"
+      - name: "Namespace: strana.news"
         type: namespace
         rule: strana.news
         enable: true
-      - id: 015e9fba
-        name: "Namespace: strana.today"
+      - name: "Namespace: strana.today"
         type: namespace
         rule: strana.today
         enable: true
-      - id: 2e90a061
-        name: "Namespace: strava.com"
+      - name: "Namespace: strava.com"
         type: namespace
         rule: strava.com
         enable: true
-      - id: 98a23129
-        name: "Namespace: suggestqueries.google.com"
+      - name: "Namespace: suggestqueries.google.com"
         type: namespace
         rule: suggestqueries.google.com
         enable: true
-      - id: 4c6185b8
-        name: "Namespace: supercell.com"
+      - name: "Namespace: supercell.com"
         type: namespace
         rule: supercell.com
         enable: true
-      - id: 68007000
-        name: "Namespace: support.xerox.com"
+      - name: "Namespace: support.xerox.com"
         type: namespace
         rule: support.xerox.com
         enable: true
-      - id: 5e5cb05d
-        name: "Namespace: surfshark.com"
+      - name: "Namespace: surfshark.com"
         type: namespace
         rule: surfshark.com
         enable: true
-      - id: b3db934d
-        name: "Namespace: surveymonkey.com"
+      - name: "Namespace: surveymonkey.com"
         type: namespace
         rule: surveymonkey.com
         enable: true
-      - id: ed972b15
-        name: "Namespace: suspilne.media"
+      - name: "Namespace: suspilne.media"
         type: namespace
         rule: suspilne.media
         enable: true
-      - id: b21b6b4e
-        name: "Namespace: svidomi.in.ua"
+      - name: "Namespace: svidomi.in.ua"
         type: namespace
         rule: svidomi.in.ua
         enable: true
-      - id: 12b856e2
-        name: "Namespace: svoboda.org"
+      - name: "Namespace: svoboda.org"
         type: namespace
         rule: svoboda.org
         enable: true
-      - id: f7106198
-        name: "Namespace: svoi.kr.ua"
+      - name: "Namespace: svoi.kr.ua"
         type: namespace
         rule: svoi.kr.ua
         enable: true
-      - id: 4e7a1e7e
-        name: "Namespace: svtv.org"
+      - name: "Namespace: svtv.org"
         type: namespace
         rule: svtv.org
         enable: true
-      - id: 93da3304
-        name: "Namespace: swagger.io"
+      - name: "Namespace: swagger.io"
         type: namespace
         rule: swagger.io
         enable: true
-      - id: 72591d80
-        name: "Namespace: swissinfo.ch"
+      - name: "Namespace: swissinfo.ch"
         type: namespace
         rule: swissinfo.ch
         enable: true
-      - id: 28654b54
-        name: "Namespace: synoforum.com"
+      - name: "Namespace: synoforum.com"
         type: namespace
         rule: synoforum.com
         enable: true
-      - id: 6252596a
-        name: "Namespace: t-invariant.org"
+      - name: "Namespace: t-invariant.org"
         type: namespace
         rule: t-invariant.org
         enable: true
-      - id: 0b2906f5
-        name: "Namespace: t.co"
+      - name: "Namespace: t.co"
         type: namespace
         rule: t.co
         enable: true
-      - id: 9b27c11a
-        name: "Namespace: tableau.com"
+      - name: "Namespace: tableau.com"
         type: namespace
         rule: tableau.com
         enable: true
-      - id: 6960295f
-        name: "Namespace: talosintelligence.com"
+      - name: "Namespace: talosintelligence.com"
         type: namespace
         rule: talosintelligence.com
         enable: true
-      - id: 3a107c60
-        name: "Namespace: tayga.info"
+      - name: "Namespace: tayga.info"
         type: namespace
         rule: tayga.info
         enable: true
-      - id: de81467c
-        name: "Namespace: te-st.org"
+      - name: "Namespace: te-st.org"
         type: namespace
         rule: te-st.org
         enable: true
-      - id: b17c3224
-        name: "Namespace: teamviewer.com"
+      - name: "Namespace: teamviewer.com"
         type: namespace
         rule: teamviewer.com
         enable: true
-      - id: c261e749
-        name: "Namespace: telegraf.by"
+      - name: "Namespace: telegraf.by"
         type: namespace
         rule: telegraf.by
         enable: true
-      - id: 08c6451e
-        name: "Namespace: telegraf.news"
+      - name: "Namespace: telegraf.news"
         type: namespace
         rule: telegraf.news
         enable: true
-      - id: 79891f85
-        name: "Namespace: telegraph.co.uk"
+      - name: "Namespace: telegraph.co.uk"
         type: namespace
         rule: telegraph.co.uk
         enable: true
-      - id: 4cecef7e
-        name: "Namespace: telemetr.io"
+      - name: "Namespace: telemetr.io"
         type: namespace
         rule: telemetr.io
         enable: true
-      - id: 8786559d
-        name: "Namespace: tellapart.com"
+      - name: "Namespace: tellapart.com"
         type: namespace
         rule: tellapart.com
         enable: true
-      - id: 47cf01df
-        name: "Namespace: tempmail.plus"
+      - name: "Namespace: tempmail.plus"
         type: namespace
         rule: tempmail.plus
         enable: true
-      - id: 0be2bcc8
-        name: "Namespace: temu.com"
+      - name: "Namespace: temu.com"
         type: namespace
         rule: temu.com
         enable: true
-      - id: e666a5b1
-        name: "Namespace: terraform.io"
+      - name: "Namespace: terraform.io"
         type: namespace
         rule: terraform.io
         enable: true
-      - id: 6bc5a54d
-        name: "Namespace: the-village.ru"
+      - name: "Namespace: the-village.ru"
         type: namespace
         rule: the-village.ru
         enable: true
-      - id: 21eb1890
-        name: "Namespace: theaudiodb.com"
+      - name: "Namespace: theaudiodb.com"
         type: namespace
         rule: theaudiodb.com
         enable: true
-      - id: 4e608cb2
-        name: "Namespace: thebarentsobserver.com"
+      - name: "Namespace: thebarentsobserver.com"
         type: namespace
         rule: thebarentsobserver.com
         enable: true
-      - id: 520e4f50
-        name: "Namespace: thebell.io"
+      - name: "Namespace: thebell.io"
         type: namespace
         rule: thebell.io
         enable: true
-      - id: 6df17165
-        name: "Namespace: theins.press"
+      - name: "Namespace: theins.press"
         type: namespace
         rule: theins.press
         enable: true
-      - id: a3b3c1c9
-        name: "Namespace: theins.ru"
+      - name: "Namespace: theins.ru"
         type: namespace
         rule: theins.ru
         enable: true
-      - id: a7ade6ff
-        name: "Namespace: themoviedb.org"
+      - name: "Namespace: themoviedb.org"
         type: namespace
         rule: themoviedb.org
         enable: true
-      - id: c6470935
-        name: "Namespace: thetruestory.news"
+      - name: "Namespace: thetruestory.news"
         type: namespace
         rule: thetruestory.news
         enable: true
-      - id: 06dead70
-        name: "Namespace: threads.net"
+      - name: "Namespace: threads.net"
         type: namespace
         rule: threads.net
         enable: true
-      - id: cc9dbb6b
-        name: "Namespace: threema.ch"
+      - name: "Namespace: threema.ch"
         type: namespace
         rule: threema.ch
         enable: true
-      - id: 4e880d2e
-        name: "Namespace: ti.com"
+      - name: "Namespace: ti.com"
         type: namespace
         rule: ti.com
         enable: true
-      - id: ed349e47
-        name: "Namespace: tidal.com"
+      - name: "Namespace: tidal.com"
         type: namespace
         rule: tidal.com
         enable: true
-      - id: c8c38af1
-        name: "Namespace: tik-tokapi.com"
+      - name: "Namespace: tik-tokapi.com"
         type: namespace
         rule: tik-tokapi.com
         enable: true
-      - id: 148219b7
-        name: "Namespace: tiktok.com"
+      - name: "Namespace: tiktok.com"
         type: namespace
         rule: tiktok.com
         enable: true
-      - id: c975edca
-        name: "Namespace: tiktokcdn-eu.com"
+      - name: "Namespace: tiktokcdn-eu.com"
         type: namespace
         rule: tiktokcdn-eu.com
         enable: true
-      - id: 5511ae3e
-        name: "Namespace: tiktokcdn-us.com"
+      - name: "Namespace: tiktokcdn-us.com"
         type: namespace
         rule: tiktokcdn-us.com
         enable: true
-      - id: 72601a49
-        name: "Namespace: tiktokcdn.com"
+      - name: "Namespace: tiktokcdn.com"
         type: namespace
         rule: tiktokcdn.com
         enable: true
-      - id: b36a3789
-        name: "Namespace: tiktokd.net"
+      - name: "Namespace: tiktokd.net"
         type: namespace
         rule: tiktokd.net
         enable: true
-      - id: b7c48e98
-        name: "Namespace: tiktokd.org"
+      - name: "Namespace: tiktokd.org"
         type: namespace
         rule: tiktokd.org
         enable: true
-      - id: 1543d9b0
-        name: "Namespace: tiktokv.com"
+      - name: "Namespace: tiktokv.com"
         type: namespace
         rule: tiktokv.com
         enable: true
-      - id: b7a748ea
-        name: "Namespace: tiktokv.us"
+      - name: "Namespace: tiktokv.us"
         type: namespace
         rule: tiktokv.us
         enable: true
-      - id: 12371b28
-        name: "Namespace: tiktokw.us"
+      - name: "Namespace: tiktokw.us"
         type: namespace
         rule: tiktokw.us
         enable: true
-      - id: 123456be
-        name: "Namespace: timberland.de"
+      - name: "Namespace: timberland.de"
         type: namespace
         rule: timberland.de
         enable: true
-      - id: 17cdf8b6
-        name: "Namespace: tmdb-image-prod.b-cdn.net"
+      - name: "Namespace: tmdb-image-prod.b-cdn.net"
         type: namespace
         rule: tmdb-image-prod.b-cdn.net
         enable: true
-      - id: 43cac0b3
-        name: "Namespace: tmdb.com"
+      - name: "Namespace: tmdb.com"
         type: namespace
         rule: tmdb.com
         enable: true
-      - id: fd36966c
-        name: "Namespace: tmdb.org"
+      - name: "Namespace: tmdb.org"
         type: namespace
         rule: tmdb.org
         enable: true
-      - id: 1bda4dc0
-        name: "Namespace: torproject.org"
+      - name: "Namespace: torproject.org"
         type: namespace
         rule: torproject.org
         enable: true
-      - id: 7c56cf24
-        name: "Namespace: torrenteditor.com"
+      - name: "Namespace: torrenteditor.com"
         type: namespace
         rule: torrenteditor.com
         enable: true
-      - id: 6ab6b8ea
-        name: "Namespace: torrentgalaxy.to"
+      - name: "Namespace: torrentgalaxy.to"
         type: namespace
         rule: torrentgalaxy.to
         enable: true
-      - id: 32007a64
-        name: "Namespace: trailblazer.me"
+      - name: "Namespace: trailblazer.me"
         type: namespace
         rule: trailblazer.me
         enable: true
-      - id: 51865ec2
-        name: "Namespace: trailhead.com"
+      - name: "Namespace: trailhead.com"
         type: namespace
         rule: trailhead.com
         enable: true
-      - id: 668a1b77
-        name: "Namespace: trellix.com"
+      - name: "Namespace: trellix.com"
         type: namespace
         rule: trellix.com
         enable: true
-      - id: a319c0e2
-        name: "Namespace: trueblackmetalradio.com"
+      - name: "Namespace: trueblackmetalradio.com"
         type: namespace
         rule: trueblackmetalradio.com
         enable: true
-      - id: 25ac1481
-        name: "Namespace: truthsocial.com"
+      - name: "Namespace: truthsocial.com"
         type: namespace
         rule: truthsocial.com
         enable: true
-      - id: 8f158bc7
-        name: "Namespace: tsmc.com"
+      - name: "Namespace: tsmc.com"
         type: namespace
         rule: tsmc.com
         enable: true
-      - id: 702ab68a
-        name: "Namespace: ttwstatic.com"
+      - name: "Namespace: ttwstatic.com"
         type: namespace
         rule: ttwstatic.com
         enable: true
-      - id: 9f60702e
-        name: "Namespace: turbobit.net"
+      - name: "Namespace: turbobit.net"
         type: namespace
         rule: turbobit.net
         enable: true
-      - id: 1d6c884d
-        name: "Namespace: tuta.com"
+      - name: "Namespace: tuta.com"
         type: namespace
         rule: tuta.com
         enable: true
-      - id: 841fe1e1
-        name: "Namespace: tuta.io"
+      - name: "Namespace: tuta.io"
         type: namespace
         rule: tuta.io
         enable: true
-      - id: ee60ea08
-        name: "Namespace: tutanota.com"
+      - name: "Namespace: tutanota.com"
         type: namespace
         rule: tutanota.com
         enable: true
-      - id: fb15ea0a
-        name: "Namespace: tvfreedom.io"
+      - name: "Namespace: tvfreedom.io"
         type: namespace
         rule: tvfreedom.io
         enable: true
-      - id: b8857f28
-        name: "Namespace: tvrain.ru"
+      - name: "Namespace: tvrain.ru"
         type: namespace
         rule: tvrain.ru
         enable: true
-      - id: c62f3747
-        name: "Namespace: tvrain.tv"
+      - name: "Namespace: tvrain.tv"
         type: namespace
         rule: tvrain.tv
         enable: true
-      - id: 819a135c
-        name: "Namespace: tweetdeck.com"
+      - name: "Namespace: tweetdeck.com"
         type: namespace
         rule: tweetdeck.com
         enable: true
-      - id: bcc53bab
-        name: "Namespace: twimg.com"
+      - name: "Namespace: twimg.com"
         type: namespace
         rule: twimg.com
         enable: true
-      - id: c8c786bd
-        name: "Namespace: twirpx.com"
+      - name: "Namespace: twirpx.com"
         type: namespace
         rule: twirpx.com
         enable: true
-      - id: 86754313
-        name: "Namespace: twitpic.com"
+      - name: "Namespace: twitpic.com"
         type: namespace
         rule: twitpic.com
         enable: true
-      - id: 2beda607
-        name: "Namespace: twitter.biz"
+      - name: "Namespace: twitter.biz"
         type: namespace
         rule: twitter.biz
         enable: true
-      - id: 85d06095
-        name: "Namespace: twitter.com"
+      - name: "Namespace: twitter.com"
         type: namespace
         rule: twitter.com
         enable: true
-      - id: 9b493de4
-        name: "Namespace: twitter.jp"
+      - name: "Namespace: twitter.jp"
         type: namespace
         rule: twitter.jp
         enable: true
-      - id: ea1ddddb
-        name: "Namespace: twittercommunity.com"
+      - name: "Namespace: twittercommunity.com"
         type: namespace
         rule: twittercommunity.com
         enable: true
-      - id: 24fd0b8a
-        name: "Namespace: twitterflightschool.com"
+      - name: "Namespace: twitterflightschool.com"
         type: namespace
         rule: twitterflightschool.com
         enable: true
-      - id: 7d750ae6
-        name: "Namespace: twitterinc.com"
+      - name: "Namespace: twitterinc.com"
         type: namespace
         rule: twitterinc.com
         enable: true
-      - id: 92b0e56d
-        name: "Namespace: twitteroauth.com"
+      - name: "Namespace: twitteroauth.com"
         type: namespace
         rule: twitteroauth.com
         enable: true
-      - id: ca3edfc8
-        name: "Namespace: twitterstat.us"
+      - name: "Namespace: twitterstat.us"
         type: namespace
         rule: twitterstat.us
         enable: true
-      - id: e84425c5
-        name: "Namespace: twtrdns.net"
+      - name: "Namespace: twtrdns.net"
         type: namespace
         rule: twtrdns.net
         enable: true
-      - id: b753fafb
-        name: "Namespace: twttr.com"
+      - name: "Namespace: twttr.com"
         type: namespace
         rule: twttr.com
         enable: true
-      - id: 481f58dd
-        name: "Namespace: twttr.net"
+      - name: "Namespace: twttr.net"
         type: namespace
         rule: twttr.net
         enable: true
-      - id: c7320437
-        name: "Namespace: twvid.com"
+      - name: "Namespace: twvid.com"
         type: namespace
         rule: twvid.com
         enable: true
-      - id: 9e4e1588
-        name: "Namespace: typing.com"
+      - name: "Namespace: typing.com"
         type: namespace
         rule: typing.com
         enable: true
-      - id: cc1842bb
-        name: "Namespace: uaudio.com"
+      - name: "Namespace: uaudio.com"
         type: namespace
         rule: uaudio.com
         enable: true
-      - id: d976e68f
-        name: "Namespace: ui.ill.in.ua"
+      - name: "Namespace: ui.ill.in.ua"
         type: namespace
         rule: ui.ill.in.ua
         enable: true
-      - id: 17b4860c
-        name: "Namespace: ukr.net"
+      - name: "Namespace: ukr.net"
         type: namespace
         rule: ukr.net
         enable: true
-      - id: d1d6229e
-        name: "Namespace: ukr.radio"
+      - name: "Namespace: ukr.radio"
         type: namespace
         rule: ukr.radio
         enable: true
-      - id: 7923d7cf
-        name: "Namespace: ukrtelcdn.net"
+      - name: "Namespace: ukrtelcdn.net"
         type: namespace
         rule: ukrtelcdn.net
         enable: true
-      - id: 593fae0e
-        name: "Namespace: unian.ua"
+      - name: "Namespace: unian.ua"
         type: namespace
         rule: unian.ua
         enable: true
-      - id: abd24a05
-        name: "Namespace: unscreen.com"
+      - name: "Namespace: unscreen.com"
         type: namespace
         rule: unscreen.com
         enable: true
-      - id: 92c2ba87
-        name: "Namespace: upwork.com"
+      - name: "Namespace: upwork.com"
         type: namespace
         rule: upwork.com
         enable: true
-      - id: ef3e2cd5
-        name: "Namespace: usa.one"
+      - name: "Namespace: usa.one"
         type: namespace
         rule: usa.one
         enable: true
-      - id: 393ea783
-        name: "Namespace: usatoday.com"
+      - name: "Namespace: usatoday.com"
         type: namespace
         rule: usatoday.com
         enable: true
-      - id: 45b3cdc0
-        name: "Namespace: vagrantcloud.com"
+      - name: "Namespace: vagrantcloud.com"
         type: namespace
         rule: vagrantcloud.com
         enable: true
-      - id: d4e8b572
-        name: "Namespace: veeam.com"
+      - name: "Namespace: veeam.com"
         type: namespace
         rule: veeam.com
         enable: true
-      - id: 53def8b9
-        name: "Namespace: verstka.media"
+      - name: "Namespace: verstka.media"
         type: namespace
         rule: verstka.media
         enable: true
-      - id: 92bdca96
-        name: "Namespace: vesma.one"
+      - name: "Namespace: vesma.one"
         type: namespace
         rule: vesma.one
         enable: true
-      - id: 2a600959
-        name: "Namespace: vesma.today"
+      - name: "Namespace: vesma.today"
         type: namespace
         rule: vesma.today
         enable: true
-      - id: bebae7fc
-        name: "Namespace: vesty.co.il"
+      - name: "Namespace: vesty.co.il"
         type: namespace
         rule: vesty.co.il
         enable: true
-      - id: 8a77bafc
-        name: "Namespace: viber.com"
+      - name: "Namespace: viber.com"
         type: namespace
         rule: viber.com
         enable: true
-      - id: 7e8fd811
-        name: "Namespace: vice.com"
+      - name: "Namespace: vice.com"
         type: namespace
         rule: vice.com
         enable: true
-      - id: 59b4d4b5
-        name: "Namespace: vine.co"
+      - name: "Namespace: vine.co"
         type: namespace
         rule: vine.co
         enable: true
-      - id: 5804765e
-        name: "Namespace: vipergirls.to"
+      - name: "Namespace: vipergirls.to"
         type: namespace
         rule: vipergirls.to
         enable: true
-      - id: 5c971c74
-        name: "Namespace: visualcapitalist.com"
+      - name: "Namespace: visualcapitalist.com"
         type: namespace
         rule: visualcapitalist.com
         enable: true
-      - id: 759b404e
-        name: "Namespace: vmware.com"
+      - name: "Namespace: vmware.com"
         type: namespace
         rule: vmware.com
         enable: true
-      - id: 1c98fb77
-        name: "Namespace: vndb.org"
+      - name: "Namespace: vndb.org"
         type: namespace
         rule: vndb.org
         enable: true
-      - id: c7c0722e
-        name: "Namespace: voanews.com"
+      - name: "Namespace: voanews.com"
         type: namespace
         rule: voanews.com
         enable: true
-      - id: 84ba2456
-        name: "Namespace: voidboost.cc"
+      - name: "Namespace: voidboost.cc"
         type: namespace
         rule: voidboost.cc
         enable: true
-      - id: 397a2450
-        name: "Namespace: volkswagen-classic-parts.com"
+      - name: "Namespace: volkswagen-classic-parts.com"
         type: namespace
         rule: volkswagen-classic-parts.com
         enable: true
-      - id: 84116904
-        name: "Namespace: vot-tak.tv"
+      - name: "Namespace: vot-tak.tv"
         type: namespace
         rule: vot-tak.tv
         enable: true
-      - id: c19ca1b8
-        name: "Namespace: vpngate.net"
+      - name: "Namespace: vpngate.net"
         type: namespace
         rule: vpngate.net
         enable: true
-      - id: de1ad869
-        name: "Namespace: vpngen.org"
+      - name: "Namespace: vpngen.org"
         type: namespace
         rule: vpngen.org
         enable: true
-      - id: 32207a81
-        name: "Namespace: vpnlove.me"
+      - name: "Namespace: vpnlove.me"
         type: namespace
         rule: vpnlove.me
         enable: true
-      - id: 281b5abe
-        name: "Namespace: vpnpay.io"
+      - name: "Namespace: vpnpay.io"
         type: namespace
         rule: vpnpay.io
         enable: true
-      - id: a78ca85b
-        name: "Namespace: vyos.io"
+      - name: "Namespace: vyos.io"
         type: namespace
         rule: vyos.io
         enable: true
-      - id: 8aab153b
-        name: "Namespace: w.atwiki.jp"
+      - name: "Namespace: w.atwiki.jp"
         type: namespace
         rule: w.atwiki.jp
         enable: true
-      - id: 8aab153f
-        name: "Namespace: walmart.com"
+      - name: "Namespace: walmart.com"
         type: namespace
         rule: walmart.com
         enable: true
-      - id: 8bc5225c
-        name: "Namespace: watchguard.com"
+      - name: "Namespace: watchguard.com"
         type: namespace
         rule: watchguard.com
         enable: true
-      - id: b0b4dc7b
-        name: "Namespace: watermarkremover.io"
+      - name: "Namespace: watermarkremover.io"
         type: namespace
         rule: watermarkremover.io
         enable: true
-      - id: 34ab5982
-        name: "Namespace: weather.com"
+      - name: "Namespace: weather.com"
         type: namespace
         rule: weather.com
         enable: true
-      - id: 502bf4e2
-        name: "Namespace: webnames.ca"
+      - name: "Namespace: webnames.ca"
         type: namespace
         rule: webnames.ca
         enable: true
-      - id: 22b5e8bf
-        name: "Namespace: webtoons.com"
+      - name: "Namespace: webtoons.com"
         type: namespace
         rule: webtoons.com
         enable: true
-      - id: 73f259cf
-        name: "Namespace: weebly.com"
+      - name: "Namespace: weebly.com"
         type: namespace
         rule: weebly.com
         enable: true
-      - id: c33f34c0
-        name: "Namespace: welt.de"
+      - name: "Namespace: welt.de"
         type: namespace
         rule: welt.de
         enable: true
-      - id: e224f351
-        name: "Namespace: wide-youtube.l.google.com"
+      - name: "Namespace: wide-youtube.l.google.com"
         type: namespace
         rule: wide-youtube.l.google.com
         enable: true
-      - id: e07687ad
-        name: "Namespace: widgetapp.stream"
+      - name: "Namespace: widgetapp.stream"
         type: namespace
         rule: widgetapp.stream
         enable: true
-      - id: d64ec8c2
-        name: "Namespace: wiki.fextralife.com"
+      - name: "Namespace: wiki.fextralife.com"
         type: namespace
         rule: wiki.fextralife.com
         enable: true
-      - id: 9d355bf5
-        name: "Namespace: wikidot.com"
+      - name: "Namespace: wikidot.com"
         type: namespace
         rule: wikidot.com
         enable: true
-      - id: c6496364
-        name: "Namespace: wilsoncenter.org"
+      - name: "Namespace: wilsoncenter.org"
         type: namespace
         rule: wilsoncenter.org
         enable: true
-      - id: 0b907aa1
-        name: "Namespace: windows10spotlight.com"
+      - name: "Namespace: windows10spotlight.com"
         type: namespace
         rule: windows10spotlight.com
         enable: true
-      - id: fa3196f4
-        name: "Namespace: windsurf.com"
+      - name: "Namespace: windsurf.com"
         type: namespace
         rule: windsurf.com
         enable: true
-      - id: bcb470de
-        name: "Namespace: wonderzine.com"
+      - name: "Namespace: wonderzine.com"
         type: namespace
         rule: wonderzine.com
         enable: true
-      - id: b70bad9d
-        name: "Namespace: wpengine.com"
+      - name: "Namespace: wpengine.com"
         type: namespace
         rule: wpengine.com
         enable: true
-      - id: 8866330e
-        name: "Namespace: www3.corsair.com"
+      - name: "Namespace: www3.corsair.com"
         type: namespace
         rule: www3.corsair.com
         enable: true
-      - id: 66b239e1
-        name: "Namespace: x.ai"
+      - name: "Namespace: x.ai"
         type: namespace
         rule: x.ai
         enable: true
-      - id: bc43ad0d
-        name: "Namespace: x.com"
+      - name: "Namespace: x.com"
         type: namespace
         rule: x.com
         enable: true
-      - id: 20444236
-        name: "Namespace: xhamster.com"
+      - name: "Namespace: xhamster.com"
         type: namespace
         rule: xhamster.com
         enable: true
-      - id: d2f07518
-        name: "Namespace: xhamsterlive.com"
+      - name: "Namespace: xhamsterlive.com"
         type: namespace
         rule: xhamsterlive.com
         enable: true
-      - id: c2e9759d
-        name: "Namespace: xnxx-cdn.com"
+      - name: "Namespace: xnxx-cdn.com"
         type: namespace
         rule: xnxx-cdn.com
         enable: true
-      - id: c643a888
-        name: "Namespace: xnxx.com"
+      - name: "Namespace: xnxx.com"
         type: namespace
         rule: xnxx.com
         enable: true
-      - id: 3165974b
-        name: "Namespace: xnxx.net"
+      - name: "Namespace: xnxx.net"
         type: namespace
         rule: xnxx.net
         enable: true
-      - id: 1977d70a
-        name: "Namespace: xnxx.tv"
+      - name: "Namespace: xnxx.tv"
         type: namespace
         rule: xnxx.tv
         enable: true
-      - id: db77c892
-        name: "Namespace: xnxx3.com"
+      - name: "Namespace: xnxx3.com"
         type: namespace
         rule: xnxx3.com
         enable: true
-      - id: 556c35ff
-        name: "Namespace: xsts.auth.xboxlive.com"
+      - name: "Namespace: xsts.auth.xboxlive.com"
         type: namespace
         rule: xsts.auth.xboxlive.com
         enable: true
-      - id: f4209950
-        name: "Namespace: xtracloud.net"
+      - name: "Namespace: xtracloud.net"
         type: namespace
         rule: xtracloud.net
         enable: true
-      - id: a9a4a373
-        name: "Namespace: xv-ru.com"
+      - name: "Namespace: xv-ru.com"
         type: namespace
         rule: xv-ru.com
         enable: true
-      - id: 99ab5f80
-        name: "Namespace: xvideos-cdn.com"
+      - name: "Namespace: xvideos-cdn.com"
         type: namespace
         rule: xvideos-cdn.com
         enable: true
-      - id: 9c3c5105
-        name: "Namespace: xvideos.com"
+      - name: "Namespace: xvideos.com"
         type: namespace
         rule: xvideos.com
         enable: true
-      - id: 6ea9a5fb
-        name: "Namespace: yle.fi"
+      - name: "Namespace: yle.fi"
         type: namespace
         rule: yle.fi
         enable: true
-      - id: daa35d7c
-        name: "Namespace: youtu.be"
+      - name: "Namespace: youtu.be"
         type: namespace
         rule: youtu.be
         enable: true
-      - id: 4d6cec42
-        name: "Namespace: youtube-nocookie.com"
+      - name: "Namespace: youtube-nocookie.com"
         type: namespace
         rule: youtube-nocookie.com
         enable: true
-      - id: 81bc154b
-        name: "Namespace: youtube-ui.l.google.com"
+      - name: "Namespace: youtube-ui.l.google.com"
         type: namespace
         rule: youtube-ui.l.google.com
         enable: true
-      - id: 5b220d5d
-        name: "Namespace: youtube.com"
+      - name: "Namespace: youtube.com"
         type: namespace
         rule: youtube.com
         enable: true
-      - id: 1fb65427
-        name: "Namespace: youtubeembeddedplayer.googleapis.com"
+      - name: "Namespace: youtubeembeddedplayer.googleapis.com"
         type: namespace
         rule: youtubeembeddedplayer.googleapis.com
         enable: true
-      - id: 07a19ef3
-        name: "Namespace: youtubei.googleapis.com"
+      - name: "Namespace: youtubei.googleapis.com"
         type: namespace
         rule: youtubei.googleapis.com
         enable: true
-      - id: 006c5f1e
-        name: "Namespace: youtubekids.com"
+      - name: "Namespace: youtubekids.com"
         type: namespace
         rule: youtubekids.com
         enable: true
-      - id: cb1cdca1
-        name: "Namespace: yt-video-upload.l.google.com"
+      - name: "Namespace: yt-video-upload.l.google.com"
         type: namespace
         rule: yt-video-upload.l.google.com
         enable: true
-      - id: 4d057ce8
-        name: "Namespace: ytimg.com"
+      - name: "Namespace: ytimg.com"
         type: namespace
         rule: ytimg.com
         enable: true
-      - id: ca60452b
-        name: "Namespace: ytimg.l.google.com"
+      - name: "Namespace: ytimg.l.google.com"
         type: namespace
         rule: ytimg.l.google.com
         enable: true
-      - id: f5a76350
-        name: "Namespace: yting.com"
+      - name: "Namespace: yting.com"
         type: namespace
         rule: yting.com
         enable: true
-      - id: d4cc9f07
-        name: "Namespace: yummyani.me"
+      - name: "Namespace: yummyani.me"
         type: namespace
         rule: yummyani.me
         enable: true
-      - id: 81693451
-        name: "Namespace: zahav.ru"
+      - name: "Namespace: zahav.ru"
         type: namespace
         rule: zahav.ru
         enable: true
-      - id: 57fbd086
-        name: "Namespace: zapier.com"
+      - name: "Namespace: zapier.com"
         type: namespace
         rule: zapier.com
         enable: true
-      - id: 78b44123
-        name: "Namespace: zbigz.com"
+      - name: "Namespace: zbigz.com"
         type: namespace
         rule: zbigz.com
         enable: true
-      - id: a18968d0
-        name: "Namespace: zedge.net"
+      - name: "Namespace: zedge.net"
         type: namespace
         rule: zedge.net
         enable: true
-      - id: 78b6d682
-        name: "Namespace: zendesk.com"
+      - name: "Namespace: zendesk.com"
         type: namespace
         rule: zendesk.com
         enable: true
-      - id: 2bb311ca
-        name: "Namespace: zerkalo.io"
+      - name: "Namespace: zerkalo.io"
         type: namespace
         rule: zerkalo.io
         enable: true
-      - id: 88c8f52d
-        name: "Namespace: zona.media"
+      - name: "Namespace: zona.media"
         type: namespace
         rule: zona.media
         enable: true
