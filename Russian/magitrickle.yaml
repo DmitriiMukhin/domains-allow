@@ -279,7 +279,7 @@ groups:
       - id: 64bce6b2
         name: "Namespace: 9tv.co.il"
         type: namespace
-        rule: 9tv.co.il
+        rule: 9tv.co.i
         enable: true
       - id: 19381541
         name: "Namespace: abercrombie.com"
@@ -911,7 +911,7 @@ groups:
         type: namespace
         rule: contabo.com
         enable: true
-      - id: 2221635
+      - id: 2221635a
         name: "Namespace: coomer.su"
         type: namespace
         rule: coomer.su
@@ -3516,7 +3516,7 @@ groups:
         type: namespace
         rule: slavicsac.com
         enable: true
-      - id: 41088800000000
+      - id: 41088800
         name: "Namespace: smartbear.co"
         type: namespace
         rule: smartbear.co
@@ -3661,7 +3661,7 @@ groups:
         type: namespace
         rule: supercell.com
         enable: true
-      - id: 68007000000000
+      - id: 68007000
         name: "Namespace: support.xerox.com"
         type: namespace
         rule: support.xerox.com
@@ -3716,7 +3716,7 @@ groups:
         type: namespace
         rule: synoforum.com
         enable: true
-      - id: 6252596
+      - id: 6252596a
         name: "Namespace: t-invariant.org"
         type: namespace
         rule: t-invariant.org
