@@ -100,7 +100,7 @@ groups:
         type: namespace
         rule: youtube-ui.l.google.com
         enable: true
-  - id: 9.592e+51
+  - id: 09592e48
     name: Anime
     color: "#0056d6"
     interface: sin0
@@ -796,7 +796,7 @@ groups:
         type: namespace
         rule: chat.com
         enable: true
-      - id: 1.512e+98
+      - id: 19592e48
         name: "Namespace: chat.openai.com.cdn.cloudflare.net"
         type: namespace
         rule: chat.openai.com.cdn.cloudflare.net
@@ -4021,7 +4021,7 @@ groups:
         type: namespace
         rule: twirpx.com
         enable: true
-      - id: 8.5347e+96
+      - id: 86754313
         name: "Namespace: twitpic.com"
         type: namespace
         rule: twitpic.com
