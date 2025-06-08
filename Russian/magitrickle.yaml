@@ -2701,7 +2701,7 @@ groups:
         type: namespace
         rule: nxp.com
         enable: true
-      - id: 0
+      - id: 8128DAC5
         name: "Namespace: oaistatic.com"
         type: namespace
         rule: oaistatic.com
