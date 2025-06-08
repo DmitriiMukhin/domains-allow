@@ -366,7 +366,7 @@ groups:
         type: namespace
         rule: alza.hu
         enable: true
-      - id: .inf
+      - id: 8aab153c
         name: "Namespace: amazfitwatchfaces.com"
         type: namespace
         rule: amazfitwatchfaces.com
@@ -1206,7 +1206,7 @@ groups:
         type: namespace
         rule: doramy.club
         enable: true
-      - id: .inf
+      - id: 8aab153e
         name: "Namespace: dovod.online"
         type: namespace
         rule: dovod.online
@@ -1756,7 +1756,7 @@ groups:
         type: namespace
         rule: hdrezka.ag
         enable: true
-      - id: .inf
+      - id: 8aab1543
         name: "Namespace: hdrezka.me"
         type: namespace
         rule: hdrezka.me
@@ -2036,7 +2036,7 @@ groups:
         type: namespace
         rule: kara.su
         enable: true
-      - id: .inf
+      - id: 8aab163b
         name: "Namespace: kasparov.ru"
         type: namespace
         rule: kasparov.ru
@@ -2251,7 +2251,7 @@ groups:
         type: namespace
         rule: lostfilmtv2.site
         enable: true
-      - id: .inf
+      - id: 8aab253b
         name: "Namespace: lucid.app"
         type: namespace
         rule: lucid.app
@@ -3901,7 +3901,7 @@ groups:
         type: namespace
         rule: tiktokw.us
         enable: true
-      - id: 8.34e+192
+      - id: 123456be
         name: "Namespace: timberland.de"
         type: namespace
         rule: timberland.de
@@ -4256,7 +4256,7 @@ groups:
         type: namespace
         rule: w.atwiki.jp
         enable: true
-      - id: .inf
+      - id: 8aab153f
         name: "Namespace: walmart.com"
         type: namespace
         rule: walmart.com
