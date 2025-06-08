@@ -218,7 +218,8 @@ groups:
         rule: ^.*.ua$
         enable: true
   - id: a918bc4b
-    name: Converted from ClashX
+    name: Converted from it-dog Russia inside ClashX
+    interface: sin0
     enable: true
     rules:
       - id: bb196121
